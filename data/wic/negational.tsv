@@ -1,0 +1,537 @@
+index	word	sentence1	sentence2	start1	start2	end1	end2	label	sentence2_neg	neg_label	tag
+0	modify	Please modify this letter to make it more polite.	He modified his views on same-gender marriage.	7	3	13	11	1	He modified his views on different gender marriage.	1	antonym
+1	tipper	A generous tipper.	The Americans are among the most generous tippers in the world.	11	42	17	49	1	The Americans are among the most stingy tippers in the world.	1	antonym
+2	tipper	A generous tipper.	The Americans are among the most generous tippers in the world.	11	42	17	49	1	The Americans are among the most ungenerous tippers in the world.	1	antonym
+3	command	To command an army or a ship.	Command the military forces.	3	0	10	7	1	Command the civilian forces.	1	antonym
+4	develop	Children must develop a sense of right and wrong.	We have developed a new theory of evolution.	14	8	21	17	0	We have developed a worn theory of evolution.	0	antonym
+5	reline	Reline the paper.	The old fur coat must be relined.	0	25	6	32	0	The new fur coat must be relined.	0	antonym
+6	develop	Children must develop a sense of right and wrong.	We have developed a new theory of evolution.	14	8	21	17	0	We have developed an old theory of evolution.	0	antonym
+7	capacity	Limited runway capacity.	He should be retained in his present capacity at a higher salary.	15	37	23	45	0	He should be retained in his past capacity at a higher salary.	0	antonym
+8	pronunciation	That is the correct pronunciation.	The pronunciation of Chinese is difficult for foreigners.	20	4	33	17	1	The pronunciation of Chinese is manageable for foreigners.	1	antonym
+9	capacity	Limited runway capacity.	He should be retained in his present capacity at a higher salary.	15	37	23	45	0	He should be retained in his future capacity at a higher salary.	0	antonym
+10	reappearance	The reappearance of Halley's comet.	His reappearance as Hamlet has been long awaited.	4	4	16	16	0	His reappearance as Hamlet has been short awaited.	0	antonym
+11	dollar	He worships the almighty dollar.	The dollar coin has never been popular in the United States.	25	4	31	10	0	The dollar coin has always been popular in the United States.	0	antonym
+12	characterize	You can characterize his behavior as that of an egotist.	This poem can be characterized as a lament for a dead lover.	8	17	20	30	1	This poem can be characterized as a lament for a live lover.	1	antonym
+13	characterize	You can characterize his behavior as that of an egotist.	This poem can be characterized as a lament for a dead lover.	8	17	20	30	1	This poem can be characterized as a lament for an alive lover.	1	antonym
+14	dollar	He worships the almighty dollar.	The dollar coin has never been popular in the United States.	25	4	31	10	0	The dollar coin has never been unpopular in the United States.	0	antonym
+15	act	She wants to act Lady Macbeth, but she is too young for the role.	I started acting at the age of eleven in my local theatre.	13	10	16	16	1	I started acting at the age of eleven in my national theater.	1	antonym
+16	motivation	We did not understand his motivation.	His motivation was at a high level.	26	4	36	14	0	His motivation was at a low level.	0	antonym
+17	recruit	Recruit new soldiers.	The lab director recruited an able crew of assistants.	0	17	7	26	0	The lab director recruited an unable crew of assistants.	0	antonym
+18	last	Summer seems to last longer each year.	The bad weather lasted for three days.	16	16	20	22	1	The good weather lasted for three days.	1	antonym
+19	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	0	The least desirable feature of the park are the beautiful views.	0	antonym
+20	inject	Inject heroin.	He injected new life into the performance.	0	3	6	11	0	He injected old life into the performance.	0	antonym
+21	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	0	The most desirable feature of the park are the ugly views.	0	antonym
+22	pronunciation	That is the correct pronunciation.	The pronunciation of Chinese is difficult for foreigners.	20	4	33	17	1	The pronunciation of Chinese is easy for foreigners.	1	antonym
+23	break	Make a break for it.	He finally got his big break.	7	23	12	28	0	He finally got his small break.	0	antonym
+24	result	Result in tragedy.	This measure will result in good or in evil.	0	18	6	24	1	This measure will result in bad or in evil.	1	antonym
+25	result	Result in tragedy.	This measure will result in good or in evil.	0	18	6	24	1	This measure will result in ill or in evil.	1	antonym
+26	experience	A surprising experience.	Experience is the best teacher.	13	0	23	10	0	Experience is the worst teacher.	0	antonym
+27	noise	He knew that it was trash day, when the garbage collectors made all the noise.	They heard indistinct noises of people talking.	72	22	77	28	0	They heard distinct noises of people talking.	0	antonym
+28	addition	The addition of a leap day every four years.	The addition of a bathroom was a major improvement.	4	4	12	12	0	The addition of a bathroom was a minor improvement.	0	antonym
+29	figure	Elections figure prominently in every government program.	How do the elections figure in the current pattern of internal politics?	10	21	16	27	1	How do the elections figure in the current pattern of external politics ?	1	antonym
+30	trailer	The trailer for that movie makes it seem like it would be fun.	At the end of the day, we put the snowmobiles back on the trailer.	4	58	11	65	0	At the end of the day, we put the snowmobiles front on the trailer.	0	antonym
+31	trailer	The trailer for that movie makes it seem like it would be fun.	At the end of the day, we put the snowmobiles back on the trailer.	4	58	11	65	0	At the end of the day, we put the snowmobiles forward on the trailer.	0	antonym
+32	mandate	Mandate a colony.	The new director of the school board mandated regular tests.	0	37	7	45	0	The old director of the school board mandated regular tests.	0	antonym
+33	segregate	Experiments show clearly that genes segregate.	Many towns segregated into new counties.	36	11	45	21	1	Many towns segregated into old counties.	1	antonym
+34	grip	In Britain they call a bobby pin a grip.	They kept a firm grip on the two top priorities.	35	17	39	21	0	They kept a firm grip on the two bottom priorities.	0	antonym
+35	oppression	The tyrant's oppression of the people.	The oppression of the poor by the aristocracy was one cause of the French Revolution.	13	4	23	14	1	The oppression of the rich by the aristocracy was one cause of the French Revolution.	1	antonym
+36	share	Our children share a love of music.	The two countries share a long border.	13	18	18	23	1	The two countries share a short border.	1	antonym
+37	knuckleball	Even the pitcher doesn't know where his knuckleball is going.	Boston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.	40	70	51	81	1	Boston Red Sox pitcher Tim Wakefield is worst known for his use of the knuckle ball.	1	antonym
+38	block	Block the signals emitted by this station.	The thick curtain blocked the action on the stage.	0	18	5	25	0	The thin curtain blocked the action on the stage.	0	antonym
+39	harass	Harass the enemy.	This man harasses his female co-workers.	0	9	6	17	0	This man harasses his androgynous co-workers.	0	antonym
+40	harass	Harass the enemy.	This man harasses his female co-workers.	0	9	6	17	0	This man harasses his male co-workers.	0	antonym
+41	scrap	The unhappy couple got into a terrible scrap.	That car isn't good for anything but scrap.	39	37	44	42	0	That car isn't bad for anything but scrap.	0	antonym
+42	break	Make a break for it.	He finally got his big break.	7	23	12	28	0	He finally got his little break.	0	antonym
+43	mandate	Mandate a colony.	The new director of the school board mandated regular tests.	0	37	7	45	0	The new director of the school board mandated irregular tests.	0	antonym
+44	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	0	The most undesirable feature of the park are the beautiful views.	0	antonym
+45	branch	A branch of Congress.	We have branches in all major suburbs.	2	8	8	16	1	We have branches in all minor suburbs.	1	antonym
+46	patronage	The restaurant had an upper class patronage.	Even before noon there was a considerable patronage.	34	42	43	51	0	Even before noon there was an inconsiderable patronage.	0	antonym
+47	portfolio	He remembered her because she was carrying a large portfolio.	He holds the portfolio for foreign affairs.	51	13	60	22	0	He holds the portfolio for domestic affairs.	0	antonym
+48	modify	Please modify this letter to make it more polite.	He modified his views on same-gender marriage.	7	3	13	11	1	He modified his views on other gender marriage.	1	antonym
+49	mess	The house was a mess.	My boss dumped a whole mess of projects on my desk today.	16	23	20	27	0	My boss dumped a fractional mess of projects on my desk today.	0	antonym
+50	mess	The house was a mess.	My boss dumped a whole mess of projects on my desk today.	16	23	20	27	0	My boss dumped a half mess of projects on my desk today.	0	antonym
+51	gap	Gap between income and outgo.	The exploring party went through the high gap in the mountains.	0	42	3	45	0	The exploring party went through the low gap in the mountains.	0	antonym
+52	daughter	I already have a son, so I would like to have a daughter.	Her daughter cared for her in her old age.	48	4	56	12	1	Her daughter cared for her in her young age.	1	antonym
+53	accession	Accession to such demands would set a dangerous precedent.	The librarian shelved the new accessions.	0	30	9	40	0	The librarian shelved the old accessions.	0	antonym
+54	rehearsal	A rehearsal will be held the day before the wedding.	He missed too many rehearsals.	2	19	11	29	1	He missed too few rehearsals.	1	antonym
+55	portfolio	He remembered her because she was carrying a large portfolio.	He holds the portfolio for foreign affairs.	51	13	60	22	0	He holds the portfolio for native affairs.	0	antonym
+56	section	There are three synagogues in the Jewish section.	Sections from the left ventricle showed diseased tissue.	41	0	48	8	0	Sections from the right ventricle showed diseased tissue.	0	antonym
+57	abridge	The new law might abridge our freedom of expression.	He had his rights abridged by the crooked sheriff.	18	18	25	26	1	He had his rights abridged by the straight sheriff.	1	antonym
+58	preempt	Discussion of the emergency situation will preempt the lecture by the professor.	Live broadcast of the presidential debate preempts the regular news hour.	43	42	50	50	1	Live broadcast of the presidential debate preempts the irregular news hour.	1	antonym
+59	finish	My horse was several lengths behind at the finish.	The winner is the team with the most points at the finish.	43	51	49	57	1	The winner is the team with the fewest points at the finish.	1	antonym
+60	finish	My horse was several lengths behind at the finish.	The winner is the team with the most points at the finish.	43	51	49	57	1	The winner is the team with the least points at the finish.	1	antonym
+61	tear	He took the manuscript in both hands and gave it a mighty tear.	There were big tears rolling down Lisa's cheeks.	58	15	62	20	0	There were little tears rolling down Lisa's cheeks.	0	antonym
+62	tear	He took the manuscript in both hands and gave it a mighty tear.	There were big tears rolling down Lisa's cheeks.	58	15	62	20	0	There were small tears rolling down Lisa's cheeks.	0	antonym
+63	hitter	A hard hitter.	Blacksmiths are good hitters.	7	21	13	28	1	Blacksmiths are bad hitters.	1	antonym
+64	construction	The engineer marvelled at his construction.	Construction is underway on the new bridge.	30	0	42	12	0	Construction is underway on the old bridge.	0	antonym
+65	kinship	Anthropology's kinship with the humanities.	Felt a deep kinship with the other students.	15	12	22	19	1	Felt a shallow kinship with the other students.	1	antonym
+66	taste	To ask at that particular time was the ultimate in bad taste.	He got a taste of life on the wild side.	55	9	60	14	0	He got a taste of life on the tame side.	0	antonym
+67	fiddle	Don't fiddle with the screws.	She always fiddles with her van on the weekend.	6	11	12	18	0	She never fiddles with her van on the weekend.	0	antonym
+68	street	Be careful crossing the street.	The whole street protested the absence of lights.	24	10	30	16	0	The half street protested the absence of lights.	0	antonym
+69	render	Render the brick walls in the den.	The face of the child is rendered with much tenderness in this painting.	0	25	6	33	0	The face of the child is rendered with little tenderness in this painting.	0	antonym
+70	remove	Remove a wrapper.	The President removed many postmasters.	0	14	6	21	0	The President removed few postmasters.	0	antonym
+71	abuse	All abuse, whether physical, verbal, psychological or sexual, is bad.	The child showed signs of physical abuse.	4	35	9	40	1	The child showed signs of mental abuse.	1	antonym
+72	extension	The dancer was praised for her uncanny extension.	Good extension comes from a combination of training and native ability.	39	5	48	14	1	Good extension comes from a combination of training and nonnative ability.	1	antonym
+73	gem	He had the gem set in a ring for his wife.	She's an absolute gem.	11	18	14	21	0	She's a relative gem.	0	antonym
+74	bye	He had a bye in the first round.	Craig's Crew plays the bye next week.	9	23	12	26	1	Craig's Crew played the bye previous week.	1	antonym
+75	surface	It was not what it appeared to be on the surface.	The cloth had a pattern of red dots on a white surface.	41	47	48	54	0	The cloth had a pattern of red dots on a black surface.	0	antonym
+76	streak	A streak of wildness.	He has a stubborn streak.	2	18	8	24	1	He has a docile streak.	1	antonym
+77	fondler	The woman charged that her jailer was a fondler.	Not all fondlers are sexual perverts.	40	8	47	16	1	Not all fondles are asexual perverts.	1	antonym
+78	draw	The luck of the draw.	They anticipated a tough draw.	16	25	20	29	1	They anticipated a tender draw.	1	antonym
+79	tap	Tap a cask of wine.	He tapped a new barrel of beer.	0	3	3	9	1	He tapped an old barrel of beer.	1	antonym
+80	ticket	This car could be just the ticket for a small family.	Joe will be running on an anti-crime ticket.	27	37	33	43	0	Joe will be running on a pro-crime ticket.	0	antonym
+81	way	They didn't have much in the way of clothing.	We went our separate ways.	29	21	32	25	0	We went our joint ways.	0	antonym
+82	upset	Truman upset Dewey in the 1948 US presidential election.	The foreign team upset the local team.	7	17	12	22	1	The native team upset the local team.	1	antonym
+83	upset	Truman upset Dewey in the 1948 US presidential election.	The foreign team upset the local team.	7	17	12	22	1	The domestic team upset the local team.	1	antonym
+84	upset	Truman upset Dewey in the 1948 US presidential election.	The foreign team upset the local team.	7	17	12	22	1	The foreign team upset the national team.	1	antonym
+85	transplant	These delicate plants do not transplant easily.	Transplant the young rice plants.	29	0	39	10	0	Transplant the old rice plants.	0	antonym
+86	preparation	He left the preparation of meals to his wife.	The resolution of one dissonance is often the preparation for another dissonance.	12	46	23	57	0	The resolution of one dissonance is seldom the preparation for another dissonance.	0	antonym
+87	preparation	He left the preparation of meals to his wife.	The resolution of one dissonance is often the preparation for another dissonance.	12	46	23	57	0	The resolution of one dissonance is rarely the preparation for another dissonance.	0	antonym
+88	preparation	He left the preparation of meals to his wife.	The resolution of one dissonance is often the preparation for another dissonance.	12	46	23	57	0	The resolution of one dissonance is infrequently the preparation for another dissonance.	0	antonym
+89	street	Be careful crossing the street.	The whole street protested the absence of lights.	24	10	30	16	0	The fractional street protested the absence of lights.	0	antonym
+90	circumference	A danger to all races over the whole circumference of the globe.	He had walked the full circumference of his land.	37	23	50	36	1	He had walked the empty circumference of his land.	1	antonym
+91	criticize	Those who criticize others often are not perfect, either.	The paper criticized the new movie.	10	10	19	20	0	The paper criticized the old movie.	0	antonym
+92	sophistication	He practiced the art of sophistication upon reason.	Understanding affine transformations requires considerable mathematical sophistication.	24	72	38	86	0	Understanding affine transformations requires inconsiderable mathematical sophistication.	0	antonym
+93	bridge	Her glasses left marks on the bridge of her nose.	Rugby players often break the bridge of their noses.	30	30	36	36	1	Rugby players rarely break the bridge of their noses.	1	antonym
+94	gargle	Gargle with this liquid.	Every morning he gargled a little cheap Scotch.	0	17	6	24	1	Every morning he gargled a little expensive Scotch.	1	antonym
+95	drought	When England defeated Pakistan it ended a ten-year drought.	Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.	51	29	58	36	0	Farmers most affected by the drought hope that there may yet be sufficient rain late in the growing season.	0	antonym
+96	drought	When England defeated Pakistan it ended a ten-year drought.	Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.	51	29	58	36	0	Farmers most affected by the drought hope that there may yet be insufficient rain early in the growing season.	0	antonym
+97	pound	The locks pound the water of the canal.	Pound the roots with a heavy flat stone.	10	0	15	5	0	Pound the roots with a heavy sharp stone.	0	antonym
+98	avail	It will avail them to dispose of their booty.	He availed himself of the available resources.	8	3	13	10	0	He availed himself of the unavailable resources.	0	antonym
+99	configure	Configure a plane for a combat mission.	Configure my new computer.	0	0	9	9	1	Configure my worn computer.	1	antonym
+100	diet	The diet of the Giant Panda consists mainly of bamboo.	He's been reading a steady diet of nonfiction for the last several years.	4	27	8	31	0	He's been reading a steady diet of nonfiction for the first several years.	0	antonym
+101	diet	The diet of the Giant Panda consists mainly of bamboo.	He's been reading a steady diet of nonfiction for the last several years.	4	27	8	31	0	He's been reading an unsteady diet of nonfiction for the last several years.	0	antonym
+102	bottom	They started at the bottom of the hill.	They did much of their overseas trade in foreign bottoms.	20	49	26	56	0	They did much of their overseas trade in native bottoms.	0	antonym
+103	configure	Configure a plane for a combat mission.	Configure my new computer.	0	0	9	9	1	Configure my old computer.	1	antonym
+104	obstacle	Lack of imagination is an obstacle to one's advancement.	The poverty of a district is an obstacle to good education.	26	32	34	40	1	The poverty of a district is an obstacle to ill education.	1	antonym
+105	obstacle	Lack of imagination is an obstacle to one's advancement.	The poverty of a district is an obstacle to good education.	26	32	34	40	1	The poverty of a district is an obstacle to bad education.	1	antonym
+106	walk	After the blizzard he shoveled the front walk.	Walking is a healthy form of exercise.	41	0	45	7	0	Walking is an unhealthy form of exercise.	0	antonym
+107	explanation	The explanation was very simple.	The explanation was long and drawn-out.	4	4	15	15	1	The explanation was short and drawn  out.	1	antonym
+108	attitude	The airliner had to land with a nose-up attitude after the incident.	The actor struck just the right attitude.	40	32	48	40	0	The actor struck just the incorrect attitude.	0	antonym
+109	attitude	The airliner had to land with a nose-up attitude after the incident.	The actor struck just the right attitude.	40	32	48	40	0	The actor struck just the wrong attitude.	0	antonym
+110	transfer	The transfer of the music from record to tape suppressed much of the background noise.	The best student was a transfer from LSU.	4	23	12	31	0	The worst student was a transfer from LSU.	0	antonym
+111	update	I need to update my records to take account of the most recent transaction.	We updated the kitchen in the old house.	10	3	16	10	1	We updated the kitchen in the new house.	1	antonym
+112	steam	Just steam the vegetables.	Her indifference to his amorous advances really steamed the young man.	5	48	10	55	0	Her indifference to his amorous advances really steamed the old man.	0	antonym
+113	denizen	The bald eagle is a denizen of the northern part of the state.	The giant squid is one of many denizens of the deep.	20	31	27	39	0	The giant squid is one of few denizens of the deep.	0	antonym
+114	spread	The invaders spread their language all over the country.	A big oil spot spread across the water.	13	15	19	21	0	A small oil spot spread across the water.	0	antonym
+115	socialization	Force socialization rarely creates strong friendships, but there are exceptions.	There was too much socialization with the enlisted men.	6	19	19	32	1	There was too little socialization with the enlisted men.	1	antonym
+116	bull	He was a bull of a man.	He made a bad bull of the assignment.	9	14	13	18	0	He made a good bull of the assignment.	0	antonym
+117	bottom	They started at the bottom of the hill.	They did much of their overseas trade in foreign bottoms.	20	49	26	56	0	They did much of their overseas trade in domestic bottoms.	0	antonym
+118	escalation	Higher wages caused an escalation of prices.	There was a gradual escalation of hostilities.	23	20	33	30	1	There was a steep escalation of hostilities.	1	antonym
+119	spread	The invaders spread their language all over the country.	A big oil spot spread across the water.	13	15	19	21	0	A little oil spot spread across the water.	0	antonym
+120	embellish	To embellish a story, the truth.	The old book cover was embellished with golden letters.	3	23	12	34	1	The new book cover was embellished with golden letters.	1	antonym
+121	pity	It's a pity he couldn't do it.	The blind are too often objects of pity.	7	35	11	39	0	The blind are too rarely objects of pity.	0	antonym
+122	contradistinction	Sculpture in contradistinction to painting.	We used hamburgers and soda in contradistinction to healthy food.	13	31	30	48	1	We used hamburgers and soda in contradistinction to unhealthy food.	1	antonym
+123	consult	They had to consult before arriving at a decision.	Consult your local broker.	12	0	19	7	1	Consult your national broker.	1	antonym
+124	escalation	Higher wages caused an escalation of prices.	There was a gradual escalation of hostilities.	23	20	33	30	1	There was a sudden escalation of hostilities.	1	antonym
+125	recreation	For recreation he wrote poetry and solved crossword puzzles.	Drug abuse is often regarded as a form of recreation.	4	42	14	52	1	Drug abuse is seldom regarded as a form of recreation.	1	antonym
+126	clime	Plants from a cold clime travel best in winter.	After working hard all of his life, Max retired to warmer climes in Florida.	19	58	24	64	1	After working easy all of his life, Max retired to warmer climes in Florida.	1	antonym
+127	recreation	For recreation he wrote poetry and solved crossword puzzles.	Drug abuse is often regarded as a form of recreation.	4	42	14	52	1	Drug abuse is infrequently regarded as a form of recreation.	1	antonym
+128	recreation	For recreation he wrote poetry and solved crossword puzzles.	Drug abuse is often regarded as a form of recreation.	4	42	14	52	1	Drug abuse is rarely regarded as a form of recreation.	1	antonym
+129	pity	It's a pity he couldn't do it.	The blind are too often objects of pity.	7	35	11	39	0	The blind are too infrequently objects of pity.	0	antonym
+130	maneuver	He made a great maneuver.	Parallel parking can be a difficult maneuver.	16	36	24	44	1	Parallel parking can be an easy maneuver.	1	antonym
+131	clap	The children began to clap in time with the music.	The big bird clapped its wings.	22	13	26	20	0	The little bird clapped its wings.	0	antonym
+132	forwarding	The forwarding of resumes to the personnel department.	The forwarding of mail to a new address is done automatically.	4	4	14	14	1	The forwarding of mail to an old address is done automatically.	1	antonym
+133	pound	The locks pound the water of the canal.	Pound the roots with a heavy flat stone.	10	0	15	5	0	Pound the roots with a light flat stone.	0	antonym
+134	bottom	They started at the bottom of the hill.	They did much of their overseas trade in foreign bottoms.	20	49	26	56	0	They did little of their overseas trade in foreign bottoms.	0	antonym
+135	bridge	Her glasses left marks on the bridge of her nose.	Rugby players often break the bridge of their noses.	30	30	36	36	1	Rugby players seldom break the bridge of their noses.	1	antonym
+136	maneuver	He made a great maneuver.	Parallel parking can be a difficult maneuver.	16	36	24	44	1	Parallel parking can be a manageable maneuver.	1	antonym
+137	clap	The children began to clap in time with the music.	The big bird clapped its wings.	22	13	26	20	0	The small bird clapped its wings.	0	antonym
+138	criticism	The senator received severe criticism from his opponent.	The politician received a lot of public criticism for his controversial stance on the issue.	28	40	37	49	0	The politician received a lot of public criticism for his noncontroversial stance on the issue.	0	antonym
+139	bridge	Her glasses left marks on the bridge of her nose.	Rugby players often break the bridge of their noses.	30	30	36	36	1	Rugby players infrequently break the bridge of their noses.	1	antonym
+140	criticism	The senator received severe criticism from his opponent.	The politician received a lot of public criticism for his controversial stance on the issue.	28	40	37	49	0	The politician received a lot of public criticism for his uncontroversial stance on the issue.	0	antonym
+141	criticism	The senator received severe criticism from his opponent.	The politician received a lot of public criticism for his controversial stance on the issue.	28	40	37	49	0	The politician received a lot of private criticism for his controversial stance on the issue.	0	antonym
+142	seize	Birds of prey often seize small mammals.	The invaders seized the land and property of the inhabitants.	20	13	25	19	0	The invaders didn't seize the land and property of the inhabitants.	0	negation
+143	crush	To crush grapes.	The car crushed the toy.	3	8	8	15	0	The car didn't crush the toy.	0	negation
+144	profession	A profession of disagreement.	My father was a barrister by profession.	2	29	12	39	0	My father was not a barrister by profession.	0	negation
+145	grunt	He went from grunt to chairman in six years.	Infantrymen in Vietnam were called grunts.	13	35	18	41	1	Infantrymen in Vietnam were not called grunts.	1	negation
+146	glimpse	From the window he could catch a glimpse of the lake.	He caught only a glimpse of the professor's meaning.	33	17	40	24	0	He didn't catch only a glimpse of the professor's meaning.	0	negation
+147	crash	You can crash here, though it's not very comfortable.	The terrorists crashed the plane into the palace.	8	15	13	22	0	The terrorists didn't crash the plane into the palace.	0	negation
+148	exile	He lived in exile.	She lived as an exile.	12	16	17	21	0	She didn't live as an exile.	0	negation
+149	embodiment	The embodiment of hope.	A circle was the embodiment of his concept of life.	4	17	14	27	0	A circle was not the embodiment of his concept of life.	0	negation
+150	create	Create a poem.	Create one a peer.	0	0	6	6	0	Don't create one a peer.	0	negation
+151	sign	Sign an intersection.	This road has been signed.	0	19	4	25	1	This road has not been signed.	1	negation
+152	protest	The senator rose to register his protest.	They finished the game under protest to the league president.	33	29	40	36	1	They didn't finish the game under protest to the league president.	1	negation
+153	probity	In a world where financial probity may not be widespread.	He enjoys an exaggerated reputation for probity.	27	40	34	47	1	He doesn't enjoy an exaggerated reputation for probity.	1	negation
+154	bull	He was a bull of a man.	He made a bad bull of the assignment.	9	14	13	18	0	He didn't make a bad bull of the assignment.	0	negation
+155	mince	A mince of mushrooms.	Mince tastes really good fried in a pan with some chopped onion and tomato.	2	0	7	5	1	Mince doesn't taste perfect fried in a pan with some chopped onion and tomato.	1	negation
+156	promise	I promise you my best effort.	I promised somebody my time.	2	2	9	10	1	I didn't promise somebody my time.	1	negation
+157	scrub	Surgeons must scrub prior to an operation.	She scrubbed his back.	14	4	19	12	0	She didn't scrub his back.	0	negation
+158	reflect	People do that sort of thing every day, without ever stopping to reflect on the consequences.	The teacher's ability reflects well on the school.	65	22	72	30	0	The teacher's ability doesn't reflect well on the school.	0	negation
+159	meeting	There was no meeting of minds.	The meeting elected a chairperson.	13	4	20	11	0	The meeting didn't elect a chairperson.	0	negation
+160	street	Be careful crossing the street.	The whole street protested the absence of lights.	24	10	30	16	0	The whole street didn't protest the absence of lights.	0	negation
+161	replicate	On entering a host cell, a virus will start to replicate.	Replicate the cell.	47	0	56	9	1	Don't replicate the cell.	1	negation
+162	map	Map the genes.	Map the surface of Venus.	0	0	3	3	0	Don't map the surface of Venus.	0	negation
+163	blend	'Smog' is a blend of 'smoke' and 'fog'.	Their music has been described as a blend of jazz and heavy metal.	12	36	17	41	1	Their music has not been described as a blend of jazz and heavy metal.	1	negation
+164	transplant	These delicate plants do not transplant easily.	Transplant the young rice plants.	29	0	39	10	0	Don't transplant the young rice plants.	0	negation
+165	spade	She led a low spade.	Spades were trumps.	14	0	19	6	1	Spades were not trumps.	1	negation
+166	precaution	He put an ice pack on the injury as a precaution.	To take precautions against risks of accident.	38	8	48	19	1	Not to take precautions against risks of accident.	1	negation
+167	return	Return her love.	Return a compliment.	0	0	6	6	1	Don't return a compliment.	1	negation
+168	collapse	Collapse the music stand.	The school system is collapsing.	0	21	8	31	0	The school system is not collapsing.	0	negation
+169	attend	I rarely attend services at my church.	She attends class regularly.	9	4	15	11	1	She doesn't attend class regularly.	1	negation
+170	barrage	A barrage of questions.	They laid down a barrage in front of the advancing troops.	2	17	9	24	0	They didn't lay down a barrage in front of the advancing troops.	0	negation
+171	association	You can not be convicted of criminal guilt by association.	He joined the Modern Language Association.	46	30	57	41	0	He didn't join the Modern Language Association.	0	negation
+172	portmanteau	'Brunch' is a well-known portmanteau.	'Motel' is a portmanteau word made by combining 'motor' and 'hotel'.	25	13	36	24	1	'Motel' is not a portmanteau word made by combining 'motor' and 'hotel'.	1	negation
+173	cooperation	Economic cooperation.	They agreed on a policy of cooperation.	9	27	20	38	1	They didn't agree on a policy of cooperation.	1	negation
+174	criticism	The senator received severe criticism from his opponent.	The politician received a lot of public criticism for his controversial stance on the issue.	28	40	37	49	0	The politician didn't receive a lot of public criticism for his controversial stance on the issue.	0	negation
+175	gnash	To gnash the air in fury.	To gnash a carpet.	3	3	8	8	1	Not to gnash a carpet.	1	negation
+176	month	He was given a month to pay the bill.	We went on holiday for two months.	15	27	20	33	1	We didn't go on holiday for two months.	1	negation
+177	abridge	The new law might abridge our freedom of expression.	He had his rights abridged by the crooked sheriff.	18	18	25	26	1	He didn't have his rights abridged by the crooked sheriff.	1	negation
+178	operation	The plane's operation in high winds.	The power of its engine determines its operation.	12	39	21	48	1	The power of its engine doesn't determine its operation.	1	negation
+179	shuffle	You shuffle, I'll deal.	Shuffle the cards.	4	0	11	7	1	Don't shuffle the cards.	1	negation
+180	pity	It's a pity he couldn't do it.	The blind are too often objects of pity.	7	35	11	39	0	The blind are not too often objects of pity.	0	negation
+181	finish	My horse was several lengths behind at the finish.	The winner is the team with the most points at the finish.	43	51	49	57	1	The winner is not the team with the most points at the finish.	1	negation
+182	fold	Fold up the newspaper.	Tony folded the flaps open.	0	5	4	11	1	Tony didn't fold the flaps open.	1	negation
+183	toss	I'll toss you for it.	Steve tossed John the ball.	5	6	9	12	1	Steve didn't toss John the ball.	1	negation
+184	embellish	To embellish a story, the truth.	The old book cover was embellished with golden letters.	3	23	12	34	1	The old book cover was not embellished with golden letters.	1	negation
+185	tilt	The court's tilt toward conservative rulings.	The tower had a pronounced tilt.	12	27	16	31	0	The tower didn't have a pronounced tilt.	0	negation
+186	hitter	A hard hitter.	Blacksmiths are good hitters.	7	21	13	28	1	Blacksmiths are not good hitters.	1	negation
+187	erase	The files will erase quickly.	The chalkboard erased easily.	15	15	20	21	1	The chalkboard didn't erase easily.	1	negation
+188	installation	He gave a speech as part of his installation into the hall of fame.	The telephone installation took only a few minutes.	32	14	44	26	0	The telephone installation didn't take only a few minutes.	0	negation
+189	base	He told the painter that he wanted a yellow base with just a hint of green.	Bases include oxides and hydroxides of metals and ammonia.	44	0	48	5	0	Bases don't include oxides and hydroxides of metals and ammonia.	0	negation
+190	pound	The locks pound the water of the canal.	Pound the roots with a heavy flat stone.	10	0	15	5	0	Don't pound the roots with a heavy flat stone.	0	negation
+191	portfolio	He remembered her because she was carrying a large portfolio.	He holds the portfolio for foreign affairs.	51	13	60	22	0	He doesn't hold the portfolio for foreign affairs.	0	negation
+192	ball	The ball at the base of the thumb.	He stood on the balls of his feet.	4	16	8	21	1	He didn't stand on the balls of his feet.	1	negation
+193	prepare	Prepare for war.	We prepared a fish for dinner.	0	3	7	11	0	We didn't prepare a fish for dinner.	0	negation
+194	donate	Donate money to the orphanage.	I donated blood to the Red Cross for the victims of the earthquake.	0	2	6	9	1	I didn't donate blood to the Red Cross for the victims of the earthquake.	1	negation
+195	hew	Hew out a path in the rock.	One of the most widely used typefaces in the world was hewn by the English printer and typographer John Baskerville.	0	55	3	59	1	One of the most widely used typefaces in the world was not hewn by the English printer and typographer John Baskerville.	1	negation
+196	appreciate	I appreciate your efforts.	The yen appreciated again!	2	8	12	19	0	The yen didn't appreciate again!	0	negation
+197	compress	The force required to compress a spring varies linearly with the displacement.	She compressed her lips.	22	4	30	14	1	She didn't compress her lips.	1	negation
+198	ease	Ease the pain in your legs.	The pain eased overnight.	0	9	4	14	0	The pain didn't ease overnight.	0	negation
+199	state	State your name.	State your opinion.	0	0	5	5	1	Don't state your opinion.	1	negation
+200	collapse	The collapse of the old star under its own gravity.	The roof is in danger of collapse.	4	25	12	33	1	The roof is not in danger of collapse.	1	negation
+201	mixture	He drank a mixture of beer and lemonade.	The mixture of sulphuric acid and water produces heat.	11	4	18	11	0	The mixture of sulfuric acid and water doesn't produce heat.	0	negation
+202	risk	I can not risk smoking.	Why risk your life?	10	4	14	8	1	Why not risk your life?	1	negation
+203	drawing	The drawing of water from the well.	He did complicated pen-and-ink drawings like medieval miniatures.	4	31	11	39	0	He didn't do complicate pen-and-ink drawings like medieval miniatures.	0	negation
+204	string	A string of islands.	The strings played superlatively well.	2	4	8	11	0	The strings didn't play superlatively well.	0	negation
+205	sign	Please sign on the dotted line.	Please sign here.	7	7	11	11	1	Please don't sign here.	1	negation
+206	affect	Will the new rules affect me?	The medicine affects my heart rate.	19	13	25	20	0	The medicine doesn't affect my heart rate.	0	negation
+207	sit	When does the court of law sit?	In what city is the circuit court sitting for this session.	27	34	30	41	1	In what city is not the circuit court sitting for this session.	1	negation
+208	rehearsal	A rehearsal will be held the day before the wedding.	He missed too many rehearsals.	2	19	11	29	1	He didn't miss too many rehearsals.	1	negation
+209	near	They are nearing the coast.	The ship nears the land.	9	9	16	14	1	The ship doesn't near the land.	1	negation
+210	patronage	The restaurant had an upper class patronage.	Even before noon there was a considerable patronage.	34	42	43	51	0	Even before noon there was no considerable patronage.	0	negation
+211	surface	It was not what it appeared to be on the surface.	The cloth had a pattern of red dots on a white surface.	41	47	48	54	0	The cloth didn't have a pattern of red dots on a white surface.	0	negation
+212	pierce	To pierce a mystery.	The path pierced the jungle.	3	9	9	16	0	The path didn't pierce the jungle.	0	negation
+213	share	Our children share a love of music.	The two countries share a long border.	13	18	18	23	1	The two countries don't share a long border.	1	negation
+214	roll	The roll of a ball.	Look at the roll of the waves.	4	12	8	16	1	Don't look at the roll of the waves.	1	negation
+215	knuckleball	Even the pitcher doesn't know where his knuckleball is going.	Boston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.	40	70	51	81	1	Boston Red Sox pitcher Tim Wakefield is not best known for his use of the knuckle ball.	1	negation
+216	wail	Wail in self-pity.	She wailed with pain.	0	4	4	10	0	She didn't wail with pain.	0	negation
+217	cleat	Cleat running shoes for better traction.	Cleat a line.	0	0	5	5	0	Don't cleat a line.	0	negation
+218	destroy	Hooligans destroy unprovoked.	The fire destroyed the house.	10	9	17	18	1	The fire didn't destroy the house.	1	negation
+219	heel	Heel a golf ball.	Heel that dance.	0	0	4	4	0	Don't heel that dance.	0	negation
+220	fuss	Don't fuss too much over the grandchildren -- they are quite big now.	She fusses over her husband.	6	4	10	10	0	She doesn't fuss over her husband.	0	negation
+221	grip	In Britain they call a bobby pin a grip.	They kept a firm grip on the two top priorities.	35	17	39	21	0	They didn't keep a firm grip on the two top priorities.	0	negation
+222	nut	He was driving his car like a nut.	I kicked him in the nuts.	30	20	33	24	0	I didn't kick him in the nuts.	0	negation
+223	attitude	The airliner had to land with a nose-up attitude after the incident.	The actor struck just the right attitude.	40	32	48	40	0	The actor didn't strike just the right attitude.	0	negation
+224	break	Make a break for it.	He finally got his big break.	7	23	12	28	0	He finally didn't get his big break.	0	negation
+225	whimsy	Whimsy can be humorous to someone with time to enjoy it.	He had a whimsy about flying to the moon.	0	9	6	15	1	He didn't have a whimsy about flying to the moon.	1	negation
+226	stay	Wear gloves so your hands stay warm.	Stay with me, please.	26	0	30	4	1	Don't stay with me, please.	1	negation
+227	prohibition	They were restrained by a prohibition in their charter.	In 1920 the 18th amendment to the Constitution established prohibition in the US.	26	59	37	70	0	In 1920 the 18th amendment to the Constitution didn't establish prohibition in the US.	0	negation
+228	sleep	We sleep five people in each room.	This tent sleeps six people.	3	10	8	16	1	This tent doesn't sleep six people.	1	negation
+229	spread	The infection spread.	Optimism spread among the population.	14	9	20	15	1	Optimism didn't spread among the population.	1	negation
+230	wish	It was his last wish.	They should respect the wishes of the people.	16	24	20	30	1	They should not respect the wishes of the people.	1	negation
+231	setting	A place setting of sterling flatware.	He changed the setting on the thermostat.	8	15	15	22	0	He didn't change the setting on the thermostat.	0	negation
+232	sugar	Sugar your tea.	John heavily sugars his coffee.	0	13	5	19	1	John heavily doesn't sugar his coffee.	1	negation
+233	intellect	He has a keen intellect.	Some of the world's leading intellects were meeting there.	14	28	23	38	0	Some of the world's leading intellects were not meeting there.	0	negation
+234	flood	Flood the market with tennis shoes.	The swollen river flooded the village.	0	18	5	25	0	The swollen river didn't flood the village.	0	negation
+235	hook	Hook the ball.	His opponent hooked him badly.	0	13	4	19	0	His opponent didn't hook him badly.	0	negation
+236	fight	A fight broke out at the hockey game.	There were fights in the streets.	2	11	7	17	1	There were no fights in the streets.	1	negation
+237	scavenge	Hyenas scavenge.	She scavenged the garbage cans for food.	7	4	15	13	0	She didn't scavenge the garbage cans for food.	0	negation
+238	recreation	For recreation he wrote poetry and solved crossword puzzles.	Drug abuse is often regarded as a form of recreation.	4	42	14	52	1	Drug abuse is not often regarded as a form of recreation.	1	negation
+239	assumption	The Nazi assumption of power in 1934.	He acquired all the company's assets for ten million dollars and the assumption of the company's debts.	9	69	19	79	1	He didn't acquire all the company's assets for ten million dollars and the assumption of the company's debts.	1	negation
+240	result	Result in tragedy.	This measure will result in good or in evil.	0	18	6	24	1	This measure will not result in good or in evil.	1	negation
+241	pressure	He used pressure to stop the bleeding.	The sensitivity of his skin to pressure and temperature was normal.	8	31	16	39	0	The sensitivity of his skin to pressure and temperature was not normal.	0	negation
+242	twilight	I could just make out her face in the twilight.	He loved the twilight.	38	13	46	21	0	He didn't love the twilight.	0	negation
+243	policy	You should have read the small print on your policy.	It was a policy of retribution.	45	9	51	15	0	It was not a policy of retribution.	0	negation
+244	question	His claim to the property has come under question.	He obeyed without question.	41	18	49	26	1	He didn't obey without question.	1	negation
+245	property	He is a man of property.	That hat is my property.	15	15	23	23	1	That hat is not my property.	1	negation
+246	flowage	Rock fracture and rock flowage are different types of geological deformation.	Many campsites were located near the flowage.	23	37	30	44	0	Many campsites were not located near the flow age.	0	negation
+247	expect	I expect to receive wages.	We were expecting a visit from our relatives.	2	8	8	17	1	We were not expecting a visit from our relatives.	1	negation
+248	cloister	Cloister the garden.	She cloistered herself in the office.	0	4	8	14	0	She didn't cloister herself in the office.	0	negation
+249	trip	A pedestrian was able to trip the burglar as he was running away.	The questions on the test tripped him up.	25	26	29	33	1	The questions on the test didn't trip him up.	1	negation
+250	gargle	Gargle with this liquid.	Every morning he gargled a little cheap Scotch.	0	17	6	24	1	Every morning he didn't gargled a little cheap Scotch.	1	negation
+251	proliferate	We must not proliferate nuclear arms.	The flowers proliferated rapidly all spring.	12	12	23	24	1	The flowers didn't proliferate rapidly all spring.	1	negation
+252	role	My neighbor was the lead role in last year's village play.	Play its role.	25	9	29	13	0	Don't play its role.	0	negation
+253	noise	He knew that it was trash day, when the garbage collectors made all the noise.	They heard indistinct noises of people talking.	72	22	77	28	0	They didn't hear indistinct noises of people talking.	0	negation
+254	twist	Don't twist my words.	Twist the dough into a braid.	6	0	11	5	0	Don't twist the dough into a braid.	0	negation
+255	steam	Just steam the vegetables.	Her indifference to his amorous advances really steamed the young man.	5	48	10	55	0	Her indifference to his amorous advances really didn't steam the young man.	0	negation
+256	care	He handled the vase with care.	Care should be taken when holding babies.	25	0	29	4	0	Care should not be taken when holding babies.	0	negation
+257	torrent	The houses were swept away in the torrent.	They endured a torrent of inquiries.	34	15	41	22	1	They didn't endure a torrent of inquiries.	1	negation
+258	direct	Direct your anger towards others, not towards yourself.	He directed all his energies into his dissertation.	0	3	6	11	0	He didn't direct all his energies into his dissertation.	0	negation
+259	muscle	The senators used their muscle to get the party leader to resign.	Muscle consists largely of actin and myosin filaments.	24	0	30	6	0	Muscle doesn't consist largely of action and myosin filaments.	0	negation
+260	circulate	Circulate a rumor.	This letter is being circulated among the faculty.	0	21	9	31	0	This letter is not being circulated among the faculty.	0	negation
+261	work	The symphony was hailed as an ingenious work.	Erosion is the work of wind or water over time.	40	15	44	19	1	Erosion is not the work of wind or water over time.	1	negation
+262	member	Canada is a member of the United Nations.	The library was a member of the interlibrary loan association.	12	18	18	24	1	The library was not a member of the interlibrary loan association.	1	negation
+263	go	It's my go.	I'll give it a go.	8	15	10	17	0	I'll don't give it a go.	0	negation
+264	preserve	Preserve the peace in the family.	To preserve silence.	0	3	8	11	1	Not to preserve silence.	1	negation
+265	recognition	Territorial disputes were resolved in Guatemala's recognition of Belize in 1991.	The partners were delighted with the recognition of their work.	50	37	61	48	0	The partners were not delighted with the recognition of their work.	0	negation
+266	plant	Plant bugs in the dissident's apartment.	Plant a spy in Moscow.	0	0	5	5	1	Don't plant a spy in Moscow.	1	negation
+267	operation	They organized a rescue operation.	Consolidate the companies various operations.	24	34	33	44	1	Don't consolidate the companies various operations.	1	negation
+268	strip	He welded together some pieces of strip.	She did a strip right in front of everyone.	34	10	39	15	0	She didn't do a strip right in front of everyone.	0	negation
+269	remove	Remove a wrapper.	The President removed many postmasters.	0	14	6	21	0	The President didn't remove many postmasters.	0	negation
+270	kill	Kill the engine.	He killed the ball.	0	3	4	9	0	He didn't kill the ball.	0	negation
+271	toilet	He made his morning toilet and went to breakfast.	Pensions are in the toilet.	20	20	26	26	0	Pensions are not in the toilet.	0	negation
+272	help	There's no help for it.	I need some help with my homework.	11	12	15	16	0	I don't need some help with my homework.	0	negation
+273	decussate	The fibers decussate.	This nerve decussates the other.	11	11	20	21	1	This nerve doesn't docusates the other.	1	negation
+274	spin	The campaign put a favorable spin on the story.	The skaters demonstrated their spins.	29	31	33	36	0	The skaters didn't demonstrate their spins.	0	negation
+275	gem	He had the gem set in a ring for his wife.	She's an absolute gem.	11	18	14	21	0	She's not an absolute gem.	0	negation
+276	sort	She served a creamy sort of dessert thing.	She wore a sort of magenta dress.	20	11	24	15	1	She didn't wear a sort of magenta dress.	1	negation
+277	piano	Most of the works by Frédéric Chopin are for the piano.	"He can play ""Happy Birthday"" on the piano."	49	36	54	41	1	"He can not play ""Happy Birthday"" on the piano."	1	negation
+278	snap	The infielder's snap and throw was a single motion.	Children can manage snaps better than buttons.	16	20	20	25	0	Children can not manage snaps better than buttons.	0	negation
+279	belabor	Belabor the obvious.	She was belabored by her fellow students.	0	8	7	17	0	She was not belabored by her fellow students.	0	negation
+280	terror	He used terror to make them confess.	He was the terror of the neighborhood.	8	11	14	17	0	He was not the terror of the neighborhood.	0	negation
+281	refrigerate	Please refrigerate your uncooked meats at or below 40 Fahrenheit.	Refrigerate this medicine.	7	0	18	11	1	Don't refrigerate this medicine.	1	negation
+282	path	The path of virtue.	Our paths in life led us apart.	4	4	8	9	1	Our paths in life didn't lead us apart.	1	negation
+283	command	To command an army or a ship.	Command the military forces.	3	0	10	7	1	Don't command the military forces.	1	negation
+284	dexterity	She twirled the knife through her fingers with impressive dexterity.	Playing computer games can improve your manual dexterity.	58	47	67	56	1	Playing computer games can not improve your manual dexterity.	1	negation
+285	drought	When England defeated Pakistan it ended a ten-year drought.	Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.	51	29	58	36	0	Farmers most affected by the drought hope that there may yet not be sufficient rain early in the growing season.	0	negation
+286	develop	Children must develop a sense of right and wrong.	We have developed a new theory of evolution.	14	8	21	17	0	We have not developed a new theory of evolution.	0	negation
+287	deal	A deal of trouble.	He made a deal with the devil.	2	10	6	14	0	He didn't make a deal with the devil.	0	negation
+288	brother	I would like to thank the brother who just spoke.	None of his brothers would betray him.	26	12	33	20	1	None of his brothers would not betray him.	1	negation
+289	officer	He is an officer of the court.	The club elected its officers for the coming year.	9	21	16	29	1	The club didn't elect its officers for the coming year.	1	negation
+290	scraping	All that bowing and scraping did not impress him.	They collected blood scrapings for analysis.	20	21	28	30	0	They didn't collect blood scrapings for analysis.	0	negation
+291	vision	The runners emerged from the trees into his clear vision.	He had a vision of the Virgin Mary.	50	9	56	15	0	He didn't have a vision of the Virgin Mary.	0	negation
+292	relieve	This shall not relieve either Party of any obligations.	The thief relieved me of $100.	15	10	22	18	0	The thief didn't relieve me of $100.	0	negation
+293	breast	He beat his breast in anger.	The robin has a red breast.	12	20	18	26	1	The robin doesn't have a red breast.	1	negation
+294	deed	He signed the deed.	I inherited the deed to the house.	14	16	18	20	1	I didn't inherit the deed to the house.	1	negation
+295	transfer	The transfer of the music from record to tape suppressed much of the background noise.	The best student was a transfer from LSU.	4	23	12	31	0	The best student was not a transfer from LSU.	0	negation
+296	dollar	He worships the almighty dollar.	The dollar coin has never been popular in the United States.	25	4	31	10	0	The dollar coin has not never been popular in the United States.	0	negation
+297	post	Post a warning at the dump.	The newspaper posted him in Timbuktu.	0	14	4	20	0	The newspaper didn't post him in Timbuktu.	0	negation
+298	catch	The catch was only 10 fish.	He shared his catch with the others.	4	14	9	19	0	He didn't share his catch with the others.	0	negation
+299	fatigue	Growing fatigue was apparent from the decline in the execution of their athletic skills.	He was hospitalized for extreme fatigue.	8	32	15	39	1	He was not hospitalized for extreme fatigue.	1	negation
+300	motivation	We did not understand his motivation.	His motivation was at a high level.	26	4	36	14	0	His motivation was not at a high level.	0	negation
+301	continent	Pioneers had to cross the continent on foot.	There are seven continents.	26	16	35	26	1	There are no seven continents.	1	negation
+302	aim	She wanted to aim a pun.	He aimed his fists towards his opponent's face.	14	3	17	8	0	He didn't aim his fists towards his opponent's face.	0	negation
+303	treatment	His treatment of the race question is badly biased.	His treatment of space borrows from Italian architecture.	4	4	13	13	0	His treatment of space doesn't borrow from Italian architecture.	0	negation
+304	stripe	Businessmen of every stripe joined in opposition to the proposal.	They earned their stripes in Kuwait.	21	18	27	25	0	They didn't earn their stripes in Kuwait.	0	negation
+305	hold	Please hold a table at Maxim's.	Hold a table for us at 7:00.	7	0	11	4	1	Don't hold a table for us at 7:00.	1	negation
+306	experience	A surprising experience.	Experience is the best teacher.	13	0	23	10	0	Experience is not the best teacher.	0	negation
+307	urgency	They departed hurriedly because of some great urgency in their affairs.	I'll be there, barring any urgencies.	46	27	53	36	1	I'll don't be there, barring any urgencies.	1	negation
+308	push	You need to push quite hard to get this door open.	Nora pushed through the crowd.	12	5	16	11	1	Nora didn't push through the crowd.	1	negation
+309	calibrate	Calibrate a gun.	He calibrated the thermometer for the Celsius scale.	0	3	9	13	0	He didn't calibrate the thermometer for the Celsius scale.	0	negation
+310	choke	Choke a carburetor.	This neckband is choking the cat.	0	17	5	24	0	This neckband is not choking the cat.	0	negation
+311	circumference	A danger to all races over the whole circumference of the globe.	He had walked the full circumference of his land.	37	23	50	36	1	He had not walked the full circumference of his land.	1	negation
+312	lecture	Did you ever lecture at Harvard?	She lectured to the class about her travels.	13	4	20	12	1	She didn't lecture to the class about her travels.	1	negation
+313	breakdown	After so much stress, he suffered a breakdown and simply gave up.	His warning came after the breakdown of talks in London.	36	27	45	36	0	His warning didn't come after the breakdown of talks in London.	0	negation
+314	drag	Time seems to drag when you're waiting for a bus.	The speech dragged on for two hours.	14	11	18	18	0	The speech didn't drag on for two hours.	0	negation
+315	carve	Carve one's name into the bark.	That chisel carved the statue.	0	12	5	18	1	That chisel didn't carve the statue.	1	negation
+316	subsidy	A subsidy for research in artificial intelligence.	Manufacturing firms are supported by government subsidies in some countries.	2	48	9	57	1	Manufacturing firms are not supported by government subsidies in some countries.	1	negation
+317	breeze	The breeze rustled the papers on her desk.	The breeze was cooled by the lake.	4	4	10	10	1	The breeze was not cooled by the lake.	1	negation
+318	education	A girl's education was less important than a boy's.	Education is a preparation for life.	9	0	18	9	1	Education is not a preparation for life.	1	negation
+319	consult	They had to consult before arriving at a decision.	Consult your local broker.	12	0	19	7	1	Don't consult your local broker.	1	negation
+320	military	Their military is the largest in the region.	He spent six years in the military.	6	26	14	34	1	He didn't spend six years in the military.	1	negation
+321	flush	Flush the meadows.	The sky flushed with rosy splendor.	0	8	5	15	0	The sky didn't flush with rosy splendor.	0	negation
+322	play	They gave full play to the artist's talent.	It was all done in play.	15	19	19	23	0	It was not all done in play.	0	negation
+323	worship	They worship in the traditional manner.	Many Hindus worship Shiva.	5	12	12	19	0	Many Hindus don't worship Shiva.	0	negation
+324	forwarding	The forwarding of resumes to the personnel department.	The forwarding of mail to a new address is done automatically.	4	4	14	14	1	The forwarding of mail to a new address is not done automatically.	1	negation
+325	distribute	The publisher wants to distribute the book in Asia.	The function distributes the values evenly.	23	13	33	24	0	The function doesn't distribute the values evenly.	0	negation
+326	bottom	They started at the bottom of the hill.	They did much of their overseas trade in foreign bottoms.	20	49	26	56	0	They didn't do much of their overseas trade in foreign bottoms.	0	negation
+327	hostility	He could not conceal his hostility.	He could no longer contain his hostility.	25	31	34	40	0	He could no longer don't contain his hostility.	0	negation
+328	incorporate	Incorporate this document with those pertaining to the same case.	The company was incorporated in 1980.	0	16	11	28	0	The company was not incorporated in 1980.	0	negation
+329	leave	Leave your child the nurse's care.	He left the decision to his deputy.	0	3	5	7	1	He didn't leave the decision to his deputy.	1	negation
+330	parade	The floats and horses in the parade were impressive, but the marching bands were really amazing.	She made a parade of her sorrows.	29	11	35	17	0	She didn't make a parade of her sorrows.	0	negation
+331	branch	We opened a new branch in London.	Our main branch is downtown.	16	9	22	15	1	Our main branch is not downtown.	1	negation
+332	addition	The addition of a leap day every four years.	The addition of a bathroom was a major improvement.	4	4	12	12	0	The addition of a bathroom was not a major improvement.	0	negation
+333	liberate	To liberate the mind from prejudice.	To liberate gases.	3	3	11	11	1	Not to liberate gases.	1	negation
+334	fuel	Fuel aircraft, ships, and cars.	Fuel the debate on creationism.	0	0	4	4	0	Don't fuel the debate on creationism.	0	negation
+335	dip	Dip the brush into the paint.	She dipped her knee.	0	4	3	10	0	She didn't dip her knee.	0	negation
+336	cost	The average cost of a new house is twice as much as t was 20 years ago.	The total cost of the new complex was an estimated $1.5 million.	12	10	16	14	1	The total cost of the new complex was not an estimated $1.5 million.	1	negation
+337	harass	Harass the enemy.	This man harasses his female co-workers.	0	9	6	17	0	This man doesn't harass his female co-workers.	0	negation
+338	writing	Writing was a form of therapy for him.	The idea occurs with increasing frequency in Hemingway's writings.	0	57	7	65	0	The idea doesn't occur with increasing frequency in Hemingway's writings.	0	negation
+339	block	Block the signals emitted by this station.	The thick curtain blocked the action on the stage.	0	18	5	25	0	The thick curtain didn't block the action on the stage.	0	negation
+340	refresher	The nap was a welcome refresher.	He stopped at the bar for a quick refresher.	22	34	31	43	1	He didn't stop at the bar for a quick refresher.	1	negation
+341	success	His success in the marathon was unexpected.	The election was a remarkable success for the Whigs.	4	30	11	37	0	The election was not a remarkable success for the Whigs.	0	negation
+342	scallop	Scallop the hem of the dress.	Scallop the meat.	0	0	7	7	0	Don't scallop the meat.	0	negation
+343	solemnize	The couple chose to solemnize their relationship in a secular ceremony, instead of having a wedding.	The King solemnized this day of morning.	20	9	29	19	0	The King didn't solemnize this day of morning.	0	negation
+344	building	The entire building complained about the noise.	The building of the bridge will be completed in a couple of weeks.	11	4	19	12	0	The building of the bridge will not be completed in a couple of weeks.	0	negation
+345	diet	The diet of the Giant Panda consists mainly of bamboo.	He's been reading a steady diet of nonfiction for the last several years.	4	27	8	31	0	He's not been reading a steady diet of nonfiction for the last several years.	0	negation
+346	shoot	Shoot cloth.	Shoot a star.	0	0	5	5	0	Don't shoot a star.	0	negation
+347	oppression	The tyrant's oppression of the people.	The oppression of the poor by the aristocracy was one cause of the French Revolution.	13	4	23	14	1	The oppression of the poor by the aristocracy was not one cause of the French Revolution.	1	negation
+348	plenty	There was plenty of food for everyone.	It must have cost plenty.	10	18	16	24	0	It must not have cost plenty.	0	negation
+349	glaze	Glaze the bread with eggwhite.	The potter glazed the dishes.	0	11	5	17	1	The potter didn't glaze the dishes.	1	negation
+350	pull	It was a long pull but we made it.	He was sidelined with a hamstring pull.	14	34	18	38	0	He was not sidelined with a hamstring pull.	0	negation
+351	mandate	Mandate a colony.	The new director of the school board mandated regular tests.	0	37	7	45	0	The new director of the school board didn't mandate regular tests.	0	negation
+352	trailer	The trailer for that movie makes it seem like it would be fun.	At the end of the day, we put the snowmobiles back on the trailer.	4	58	11	65	0	At the end of the day, we didn't put the snowmobiles back on the trailer.	0	negation
+353	dimple	The accident created a dimple in the hood of the car.	There are approximately 336 dimples on a golf ball.	23	28	29	35	1	There are no approximately 336 dimples on a golf ball.	1	negation
+354	stop	Stop a car.	Stop the thief.	0	0	4	4	1	Don't stop the thief.	1	negation
+355	disable	Disable this command on your computer.	He was disabled in a car accident.	0	7	7	15	0	He was not disabled in a car accident.	0	negation
+356	step	Always a step behind.	Keep in step with the fashions.	9	8	13	12	1	Don't keep in step with the fashions.	1	negation
+357	segregate	Experiments show clearly that genes segregate.	Many towns segregated into new counties.	36	11	45	21	1	Many towns didn't segregate into new counties.	1	negation
+358	forge	We decided to forge ahead with our plans even though our biggest underwriter backed out.	He forged ahead.	14	3	19	9	1	He didn't forge ahead.	1	negation
+359	slip	Slip into something comfortable.	My grades are slipping.	0	14	4	22	0	My grades are not slipping.	0	negation
+360	squeaker	Which hinge is the squeaker?	Those sneakers are squeakers.	19	19	27	28	1	Those sneakers are not squeakers.	1	negation
+361	allowance	The captain was obliged to allowance his crew.	Our provisions were allowanced.	27	20	36	30	1	Our provisions were not allowance.	1	negation
+362	adhocracy	The need for informational flexibility can lead to adhocracy.	The choice between bureaucracy and adhocracy represents a common dilemma.	51	35	60	44	1	The choice between bureaucracy and advocacy doesn't represent a common dilemma.	1	negation
+363	smoothness	The weather system of the Pacific is determined by the uninterrupted smoothness of the ocean.	His oily smoothness concealed his guilt from the police.	69	9	79	19	0	His oily smoothness didn't conceal his guilt from the police.	0	negation
+364	pencil	An eyebrow pencil.	This artist's favorite medium is pencil.	11	33	17	39	0	This artist's favorite medium is not pencil.	0	negation
+365	violate	Violate the sanctity of the church.	This sentence violates the rules of syntax.	0	14	7	22	0	This sentence doesn't violate the rules of syntax.	0	negation
+366	aliyah	Students making aliyah.	He was called on for an aliyah.	16	24	22	30	0	He was not called on for an aliyah.	0	negation
+367	lay	To lay a tax on land.	Lay a responsibility on someone.	3	0	6	3	1	Don't lay a responsibility on someone.	1	negation
+368	buy	$50 won't even buy a dress.	FMC has bought 565.	15	8	18	14	1	FMC has not bought 565.	1	negation
+369	bend	The stick does not bend.	Bend your knees.	19	0	23	4	0	Don't bend your knees.	0	negation
+370	obstacle	Lack of imagination is an obstacle to one's advancement.	The poverty of a district is an obstacle to good education.	26	32	34	40	1	The poverty of a district is not an obstacle to good education.	1	negation
+371	rail	He was concerned with rail safety.	He traveled by rail.	22	15	26	19	1	He didn't travel by rail.	1	negation
+372	hail	Hail a cab.	He was hailed as a hero.	0	7	4	13	1	He was not hailed as a hero.	1	negation
+373	response	This situation developed in response to events in Africa.	His responses have slowed with age.	28	4	36	13	0	His responses have not slowed with age.	0	negation
+374	bang	He got a bang on the head.	They got a great bang out of it.	9	17	13	21	0	They didn't get a great bang out of it.	0	negation
+375	save	The relief pitcher got credit for a save.	The goalie made a brilliant save.	36	28	40	32	1	The goalie didn't make a brilliant save.	1	negation
+376	inclination	The alkaline inclination of the local waters.	An inclination of his head indicated his agreement.	13	3	24	14	0	An inclination of his head didn't indicate his agreement.	0	negation
+377	home	Canadian tariffs enabled United States lumber companies to raise prices at home.	His home is New Jersey.	75	4	79	8	1	His home is not New Jersey.	1	negation
+378	contradistinction	Sculpture in contradistinction to painting.	We used hamburgers and soda in contradistinction to healthy food.	13	31	30	48	1	We didn't use hamburgers and soda in contradistinction to healthy food.	1	negation
+379	easiness	The very easiness of the deed held her back.	There was an easiness between them.	9	13	17	21	0	There was no easiness between them.	0	negation
+380	minister	The minister said a prayer on behalf of the entire congregation.	Clergymen are usually called ministers in Protestant churches.	4	29	12	38	1	Clergymen are not usually called ministers in Protestant churches.	1	negation
+381	acquisition	The child's acquisition of language.	That graphite tennis racquet is quite an acquisition.	12	41	23	52	0	That graphite tennis racquet is not quite an acquisition.	0	negation
+382	brush	She gave her hair a quick brush.	The dentist recommended two brushes a day.	26	28	31	35	1	The dentist didn't recommend two brushes a day.	1	negation
+383	touch	He has a touch of rheumatism.	He longed for the touch of her hand.	9	18	14	23	0	He didn't long for the touch of her hand.	0	negation
+384	walk	After the blizzard he shoveled the front walk.	Walking is a healthy form of exercise.	41	0	45	7	0	Walking is not a healthy form of exercise.	0	negation
+385	get	The operator couldn't get Kobe because of the earthquake.	I'll get this finished by lunchtime.	22	5	25	8	0	I'll not get this finished by lunchtime.	0	negation
+386	strike	Strike an arc.	The clock struck midnight.	0	10	6	16	0	The clock didn't strike midnight.	0	negation
+387	explanation	The explanation was very simple.	The explanation was long and drawn-out.	4	4	15	15	1	The explanation was not long and drawn-out.	1	negation
+388	sense	Particle detectors sense ionization.	She immediately sensed her disdain.	19	16	24	22	0	She immediately didn't sense her disdain.	0	negation
+389	wine	She ordered some wine for the meal.	Wine is stronger than beer.	17	0	21	4	1	Wine is not stronger than beer.	1	negation
+390	denizen	The bald eagle is a denizen of the northern part of the state.	The giant squid is one of many denizens of the deep.	20	31	27	39	0	The giant squid is not one of many denizens of the deep.	0	negation
+391	excuse	That thing is a poor excuse for a gingerbread man. Hasn't anyone taught you how to bake?	He's a sorry excuse of a doctor.	21	13	27	19	1	He's not a sorry excuse of a doctor.	1	negation
+392	avail	It will avail them to dispose of their booty.	He availed himself of the available resources.	8	3	13	10	0	He didn't avail himself of the available resources.	0	negation
+393	grind	Grind lenses for glasses and cameras.	Grind an axe.	0	0	5	5	1	Don't grind an axe.	1	negation
+394	watch	Put a little baking soda in some vinegar and watch what happens.	The world is watching Sarajevo.	45	13	50	21	0	The world is not watching Sarajevo.	0	negation
+395	bridge	Her glasses left marks on the bridge of her nose.	Rugby players often break the bridge of their noses.	30	30	36	36	1	Rugby players often don't break the bridge of their noses.	1	negation
+396	sophistication	He practiced the art of sophistication upon reason.	Understanding affine transformations requires considerable mathematical sophistication.	24	72	38	86	0	Understanding affine transformations doesn't require considerable mathematical sophistication.	0	negation
+397	escalation	Higher wages caused an escalation of prices.	There was a gradual escalation of hostilities.	23	20	33	30	1	There was no gradual escalation of hostilities.	1	negation
+398	falsity	The belief that the world is flat is a falsity.	Argument could not determine its truth or falsity.	39	42	46	49	1	Argument could determine its truth or falsity.	1	negation
+399	authority	She lost all her respect and authority after turning up drunk to the meeting.	This book is the final authority on the life of Milton.	29	23	38	32	0	This book is not the final authority on the life of Milton.	0	negation
+400	update	I need to update my records to take account of the most recent transaction.	We updated the kitchen in the old house.	10	3	16	10	1	We didn't update the kitchen in the old house.	1	negation
+401	tap	Tap a keg of beer.	Tap a maple tree for its syrup.	0	0	3	3	1	Don't tap a maple tree for its syrup.	1	negation
+402	configure	Configure a plane for a combat mission.	Configure my new computer.	0	0	9	9	1	Don't configure my new computer.	1	negation
+403	say	What does the law say?	The clock says noon.	18	10	21	14	0	The clock doesn't say noon.	0	negation
+404	misdirect	Misdirect the letter.	The pedestrian misdirected the out-of-town driver.	0	15	9	26	0	The pedestrian didn't misdirect the out-of-town driver.	0	negation
+405	clap	The children began to clap in time with the music.	The big bird clapped its wings.	22	13	26	20	0	The big bird didn't clap its wings.	0	negation
+406	clime	Plants from a cold clime travel best in winter.	After working hard all of his life, Max retired to warmer climes in Florida.	19	58	24	64	1	After working hard all of his life, Max didn't retire to warmer climes in Florida.	1	negation
+407	custody	He was mistreated while in police custody.	He is in the custody of police.	34	13	41	20	1	He is not in the custody of police.	1	negation
+408	spread	The invaders spread their language all over the country.	A big oil spot spread across the water.	13	15	19	21	0	A big oil spot didn't spread across the water.	0	negation
+409	landing	The plane made a smooth landing.	His landing on his feet was catlike.	24	4	31	11	1	His landing on his feet was not catlike.	1	negation
+410	look	A look of triumph.	His look was fixed on her eyes.	2	4	6	8	0	His look was not fixed on her eyes.	0	negation
+411	maneuver	He made a great maneuver.	Parallel parking can be a difficult maneuver.	16	36	24	44	1	Parallel parking can not be a difficult maneuver.	1	negation
+412	sexualize	Some languages sexualize all nouns and do not have a neuter gender.	The god was sexualized and married to another god.	15	12	24	22	1	The god was not sexualized and married to another god.	1	negation
+413	criticize	Those who criticize others often are not perfect, either.	The paper criticized the new movie.	10	10	19	20	0	The paper didn't criticize the new movie.	0	negation
+414	pronunciation	That is the correct pronunciation.	The pronunciation of Chinese is difficult for foreigners.	20	4	33	17	1	The pronunciation of Chinese is not difficult for foreigners.	1	negation
+415	load	Load a car.	Load the truck with hay.	0	0	4	4	1	Don't load the truck with hay.	1	negation
+416	ruin	This behavior will ruin your chances of winning the election.	The country lay ruined after the war.	19	16	23	22	0	The country didn't lay ruined after the war.	0	negation
+417	accumulate	He wishes to accumulate a sum of money.	Journals are accumulating in my office.	13	13	23	25	1	Journals are not accumulating in my office.	1	negation
+418	touch	Please can I have a look, if I promise not to touch?	Carrie touched his shoulder with the stick.	46	7	51	14	1	Carrie didn't touch his shoulder with the stick.	1	negation
+419	gap	Gap between income and outgo.	The exploring party went through the high gap in the mountains.	0	42	3	45	0	The exploring party didn't go through the high gap in the mountains.	0	negation
+420	partnership	The action teams worked in partnership with the government.	Effective language learning is a partnership between school, teacher and student.	27	33	38	44	1	Effective language learning is not a partnership between school, teacher and student.	1	negation
+421	mess	The house was a mess.	My boss dumped a whole mess of projects on my desk today.	16	23	20	27	0	My boss didn't dump a whole mess of projects on my desk today.	0	negation
+422	button	"Pat pushed the button marked ""shred"" on the blender."	The elevator was operated by push buttons.	15	34	21	41	1	The elevator was not operated by push buttons.	1	negation
+423	cost	These shoes cost $100.	The bill will cost them 500 million dollars.	12	14	16	18	1	The bill will not cost them 500 million dollars.	1	negation
+424	form	"By adding ""-ness"", you can form a noun from an adjective."	Form cylinders from the dough.	27	0	31	4	0	Form doesn't cylinders from the dough.	0	negation
+425	hour	We live an hour from the airport.	It was their finest hour.	11	20	15	24	0	It was not their finest hour.	0	negation
+426	modify	Please modify this letter to make it more polite.	He modified his views on same-gender marriage.	7	3	13	11	1	He didn't modify his views on same-gender marriage.	1	negation
+427	stress	"Some people put the stress on the first syllable of ""controversy""; others put it on the second."	The intensity of stress is expressed in units of force divided by units of area.	20	17	26	23	0	The intensity of stress is not expressed in units of force divided by units of area.	0	negation
+428	taste	To ask at that particular time was the ultimate in bad taste.	He got a taste of life on the wild side.	55	9	60	14	0	He didn't get a taste of life on the wild side.	0	negation
+429	fiddle	Don't fiddle with the screws.	She always fiddles with her van on the weekend.	6	11	12	18	0	She always doesn't fiddle with her van on the weekend.	0	negation
+430	eccentricity	For an ellipse, the eccentricity is the ratio of the distance from the center to a focus divided by the length of the semi-major axis.	A circle is an ellipse with zero eccentricity.	20	33	32	45	1	A circle is not an ellipse with zero eccentricity.	1	negation
+431	donate	Some of the members may donate privately.	She donates to her favorite charity every month.	24	4	30	11	1	She doesn't donate to her favorite charity every month.	1	negation
+432	absorb	Absorb the costs for something.	He absorbed the knowledge or beliefs of his tribe.	0	3	6	11	0	He didn't absorb the knowledge or beliefs of his tribe.	0	negation
+433	preparation	He left the preparation of meals to his wife.	The resolution of one dissonance is often the preparation for another dissonance.	12	46	23	57	0	The resolution of one dissonance is not often the preparation for another dissonance.	0	negation
+434	send	Send me your latest results.	Nora sent the book from Paris.	0	5	4	9	1	Nora didn't send the book from Paris.	1	negation
+435	convey	To convey information.	She conveyed the message to me.	3	4	9	12	1	She didn't convey the message to me.	1	negation
+436	upset	Truman upset Dewey in the 1948 US presidential election.	The foreign team upset the local team.	7	17	12	22	1	The foreign team didn't upset the local team.	1	negation
+437	comb	Comb the wool.	Comb your hair before dinner.	0	0	4	4	1	Don't comb your hair before dinner.	1	negation
+438	exalt	These paintings exalt the imagination.	The man was exalted from a humble carpenter to a minister.	16	12	21	19	0	The man was not exalted from a humble carpenter to a minister.	0	negation
+439	average	He is about average in height.	The snowfall this month is below average.	12	33	19	40	1	The snowfall this month is not below average.	1	negation
+440	daughter	I already have a son, so I would like to have a daughter.	Her daughter cared for her in her old age.	48	4	56	12	1	Her daughter didn't care for her in her old age.	1	negation
+441	accession	Accession to such demands would set a dangerous precedent.	The librarian shelved the new accessions.	0	30	9	40	0	The librarian didn't shelve the new accessions.	0	negation
+442	wash	This silly excuse won't wash in traffic court.	The cat washes several times a day.	24	8	28	14	0	The cat doesn't wash several times a day.	0	negation
+443	analyze	Analyze your real motives.	The inspector analyzed the building's soundness.	0	14	7	22	1	The inspector didn't analyze the building's soundness.	1	negation
+444	safety	He ran to safety.	The reciprocal of safety is risk.	10	18	16	24	0	The reciprocal of safety is not risk.	0	negation
+445	construction	The engineer marvelled at his construction.	Construction is underway on the new bridge.	30	0	42	12	0	Construction is not underway on the new bridge.	0	negation
+446	toast	That toaster can make wonderful toasts.	I ate a piece of toast for breakfast.	32	17	38	22	1	I didn't eat a piece of toast for breakfast.	1	negation
+447	activity	Catalytic activity.	They avoided all recreational activity.	10	30	18	38	0	They didn't avoid all recreational activity.	0	negation
+448	tear	He took the manuscript in both hands and gave it a mighty tear.	There were big tears rolling down Lisa's cheeks.	58	15	62	20	0	There were no big tears rolling down Lisa's cheeks.	0	negation
+449	militarize	Militarize the Civil Service.	Militarize Germany again after the war.	0	0	10	10	0	Don't militarize Germany again after the war.	0	negation
+450	amuse	I watch these movies because they amuse me.	The clown amused the children.	34	10	39	16	1	The clown didn't amuse the children.	1	negation
+451	stream	He felt a stream of air.	The hose ejected a stream of water.	10	19	16	25	1	The hose didn't eject a stream of water.	1	negation
+452	winterize	Winterize cars.	Winterize your houses.	0	0	9	9	1	Don't winterize your houses.	1	negation
+453	preempt	Discussion of the emergency situation will preempt the lecture by the professor.	Live broadcast of the presidential debate preempts the regular news hour.	43	42	50	50	1	Live broadcast of the presidential debate doesn't preempt the regular news hour.	1	negation
+454	adoxography	Elizabethan schoolboys were taught adoxography, the art of eruditely praising worthless things.	Adoxography is particularly useful to lawyers.	35	0	46	11	1	Photography is not particularly useful to lawyers.	1	negation
+455	nowhere	He came out of nowhere.	They went on a cruise to nowhere.	15	25	22	32	1	They didn't go on a cruise to nowhere.	1	negation
+456	invite	Can I invite you for dinner on Sunday night?	The organizers invite submissions of papers for the conference.	6	15	12	21	0	The organizers don't invite submissions of papers for the conference.	0	negation
+457	flick	Flick a piece of paper across the table.	He flicked his Bic.	0	3	5	10	0	He didn't flick his Bic.	0	negation
+458	defense	They died in the defense of Stalingrad.	They were developed for the defense program.	17	28	24	35	1	They were not developed for the defense program.	1	negation
+459	kinship	Anthropology's kinship with the humanities.	Felt a deep kinship with the other students.	15	12	22	19	1	Don't felt a deep kinship with the other students.	1	negation
+460	peak	The peak of perfection.	The view from the peak was magnificent.	4	18	8	22	0	The view from the peak was not magnificent.	0	negation
+461	dish	They served me a dish of rice.	We gave them a set of dishes for a wedding present.	17	22	21	28	0	We didn't give them a set of dishes for a wedding present.	0	negation
+462	afflict	Afflict with the plague.	She was afflicted by the death of her parents.	0	8	7	17	0	She was not afflicted by the death of her parents.	0	negation
+463	clutch	To clutch power.	She clutched her purse.	3	4	9	12	1	She didn't clutch her purse.	1	negation
+464	percolate	Percolate coffee.	I'll percolate some coffee.	0	5	9	14	1	I'll not percolate some coffee.	1	negation
+465	sultriness	The sultriness of her look was unmistakable.	The sultriness of lust was in the air.	4	4	14	14	1	The sultriness of lust was not in the air.	1	negation
+466	process	Process iron.	They processed into the dining room.	0	5	7	14	0	They didn't process into the dining room.	0	negation
+467	section	There are three synagogues in the Jewish section.	Sections from the left ventricle showed diseased tissue.	41	0	48	8	0	Sections from the left ventricle didn't show diseased tissue.	0	negation
+468	pocket	Lydia put the change in her left pocket.	Lydia pocketed the change.	33	6	39	14	1	Lydia didn't pocket the change.	1	negation
+469	moderate	To moderate a synod.	John moderated the discussion.	3	5	11	14	1	John didn't moderate the discussion.	1	negation
+470	mess	I mess with the wardroom officers.	The afternoon breeze messed up my hair.	2	21	6	27	0	The afternoon breeze didn't mess up my hair.	0	negation
+471	triangulate	Triangulate the piece of cardboard.	The land surveyor worked by triangulating the plot.	0	28	11	41	0	The land surveyor didn't work by triangulating the plot.	0	negation
+472	ticket	This car could be just the ticket for a small family.	Joe will be running on an anti-crime ticket.	27	37	33	43	0	Joe will not be running on an anti-crime ticket.	0	negation
+473	act	She wants to act Lady Macbeth, but she is too young for the role.	I started acting at the age of eleven in my local theatre.	13	10	16	16	1	I didn't start acting at the age of eleven in my local theater.	1	negation
+474	sequence	He played the trumps in sequence.	The doctor saw a sequence of patients.	24	17	32	25	0	The doctor didn't see a sequence of patients.	0	negation
+475	square	The carpenter who built this room must have lost his square.	64 is the square of 8.	53	10	59	16	0	64 is not the square of 8.	0	negation
+476	club	Each club played six home games with teams in its own division.	He played the drums at a jazz club.	5	30	9	34	0	He didn't play the drums at a jazz club.	0	negation
+477	characterize	You can characterize his behavior as that of an egotist.	This poem can be characterized as a lament for a dead lover.	8	17	20	30	1	This poem can not be characterized as a lament for a dead lover.	1	negation
+478	reappearance	The reappearance of Halley's comet.	His reappearance as Hamlet has been long awaited.	4	4	16	16	0	His reappearance as Hamlet has not been long awaited.	0	negation
+479	story	The book tells the story of two roommates.	Disney's stories entertain adults as well as children.	19	9	24	16	1	Disney's stories don't entertain adults as well as children.	1	negation
+480	advantage	The enemy had the advantage of a more elevated position.	The experience gave him the advantage over me.	18	28	27	37	1	The experience didn't give him the advantage over me.	1	negation
+481	inject	Inject heroin.	He injected new life into the performance.	0	3	6	11	0	He didn't inject new life into the performance.	0	negation
+482	capacity	Limited runway capacity.	He should be retained in his present capacity at a higher salary.	15	37	23	45	0	He should not be retained in his present capacity at a higher salary.	0	negation
+483	cup	He put the cup back in the saucer.	The handle of the cup was missing.	11	18	14	21	1	The handle of the cup was not missing.	1	negation
+484	burn	Burn a CD.	My eyes are burning.	0	12	4	19	0	My eyes are not burning.	0	negation
+485	vote	I vote that we all go home.	She voted for going to the Chinese restaurant.	2	4	6	9	1	She didn't vote for going to the Chinese restaurant.	1	negation
+486	reline	Reline the paper.	The old fur coat must be relined.	0	25	6	32	0	The old fur coat must not be relined.	0	negation
+487	arousal	To influence the arousal of brain and behavior.	The purpose of art is the arousal of emotions.	17	26	24	33	1	The purpose of art is not the arousal of emotions.	1	negation
+488	button	"The politician wore a bright yellow button with the slogan ""Vote Smart"" emblazoned on it."	They passed out campaign buttons for their candidate.	36	25	42	32	1	They didn't pass out campaign buttons for their candidate.	1	negation
+489	section	The history of this work is discussed in the next section.	A graduate student taught sections for the professor's lecture course.	50	26	57	34	0	A graduate student didn't teach sections for the professor's lecture course.	0	negation
+490	horse	A clothes horse.	500 horse led the attack.	10	4	15	9	0	500 horse didn't lead the attack.	0	negation
+491	bull	To bull railroad bonds.	He bulled his way in.	3	3	7	9	0	He didn't bull his way in.	0	negation
+492	tipper	A generous tipper.	The Americans are among the most generous tippers in the world.	11	42	17	49	1	The Americans are not among the most generous tippers in the world.	1	negation
+493	rush	The linebackers were ready to stop a rush.	Come back after the rush.	37	20	41	24	0	Don't come back after the rush.	0	negation
+494	stab	He took a stab at forecasting.	She felt a stab of excitement.	10	11	14	15	0	She didn't felt a stab of excitement.	0	negation
+495	eliminate	Let's eliminate the course on Akkadian hieroglyphics.	This possibility can be eliminated from our consideration.	6	24	15	34	0	This possibility can not be eliminated from our consideration.	0	negation
+496	board	Room and board.	He nailed boards across the windows.	9	10	14	16	0	He didn't nail boards across the windows.	0	negation
+497	floss	She flossed her teeth.	The hygienist flossed my teeth.	4	14	11	21	1	The hygienist didn't floss my teeth.	1	negation
+498	recruit	Recruit new soldiers.	The lab director recruited an able crew of assistants.	0	17	7	26	0	The lab director didn't recruit an able crew of assistants.	0	negation
+499	acquaintance	I know of the man; but have no acquaintance with him.	I have trouble remembering the names of all my acquaintances.	31	47	43	60	0	I don't have trouble remembering the names of all my acquaintances.	0	negation
+500	bag	Bag a few pheasants.	We bagged three deer yesterday.	0	3	3	9	1	We didn't bag three deer yesterday.	1	negation
+501	last	Summer seems to last longer each year.	The bad weather lasted for three days.	16	16	20	22	1	The bad weather didn't last for three days.	1	negation
+502	catch	I would love to have dinner but I have to catch a plane.	We caught something of his theory in the lecture.	42	3	47	9	0	We didn't catch something of his theory in the lecture.	0	negation
+503	tap	Tap a cask of wine.	He tapped a new barrel of beer.	0	3	3	9	1	He didn't tap a new barrel of beer.	1	negation
+504	poster	I saw a poster for it on the side of a bus.	A poster advertised the coming attractions.	8	2	14	8	1	A poster didn't advertise the coming attractions.	1	negation
+505	draw	The luck of the draw.	They anticipated a tough draw.	16	25	20	29	1	They didn't anticipate a tough draw.	1	negation
+506	fuel	More fuel is needed during the winter months.	They developed alternative fuels for aircraft.	5	27	9	32	1	They didn't develop alternative fuels for aircraft.	1	negation
+507	streak	A streak of wildness.	He has a stubborn streak.	2	18	8	24	1	He doesn't have a stubborn streak.	1	negation
+508	repair	One can never fully repair the suffering and losses of the Jews in the Third Reich.	She repaired her TV set.	20	4	26	12	0	She didn't repair her TV set.	0	negation
+509	bye	He had a bye in the first round.	Craig's Crew plays the bye next week.	9	23	12	26	1	Craig's Crew doesn't play the bye next week.	1	negation
+510	strangle	The imperialist nation wanted to strangle the free trade between the two small countries.	A man in Boston has been strangling several dozen prostitutes.	33	25	41	35	0	A man in Boston has not been strangling several dozen prostitutes.	0	negation
+511	extension	The dancer was praised for her uncanny extension.	Good extension comes from a combination of training and native ability.	39	5	48	14	1	Good extension doesn't come from a combination of training and native ability.	1	negation
+512	abuse	All abuse, whether physical, verbal, psychological or sexual, is bad.	The child showed signs of physical abuse.	4	35	9	40	1	The child didn't show signs of physical abuse.	1	negation
+513	way	They didn't have much in the way of clothing.	We went our separate ways.	29	21	32	25	0	We didn't go our separate ways.	0	negation
+514	harbour	The city has an excellent natural harbour.	The neighbourhood is a well-known harbour for petty thieves.	34	34	41	41	0	The neighborhood is not a well-known harbor for petty thieves.	0	negation
+515	cognate	English is a cognate of Greek, German, Russian and Persian.	English and, Russian, Icelandic and Irish are all cognates.	13	50	20	58	1	English and, Russian, Icelandic and Irish are not all cognates.	1	negation
+516	forbid	I forbid you to call me late at night.	The rules forbid it.	2	10	8	16	1	The rules don't forbid it.	1	negation
+517	ash	The woods planted in ash will see a different mix of species.	The ash trees are dying off.	21	4	24	7	1	The ash trees are not dying off.	1	negation
+518	wake	There's no weeping at an Irish wake.	The motorboat's wake capsized the canoe.	31	16	35	20	0	The motorboat's wake didn't capsize the canoe.	0	negation
+519	render	Render the brick walls in the den.	The face of the child is rendered with much tenderness in this painting.	0	25	6	33	0	The face of the child is not rendered with much tenderness in this painting.	0	negation
+520	foundation	He lacks the foundation necessary for advanced study.	The Wikimedia Foundation, Inc. is the parent organization of the Wiktionary collaborative project.	13	14	23	24	0	The Wikimedia Foundation, Inc. is not the parent organization of the Wiktionary collaborative project.	0	negation
+521	believe	We didn't believe his stories from the War.	I believed his report.	10	2	17	10	1	I didn't believe his report.	1	negation
+522	branch	A branch of Congress.	We have branches in all major suburbs.	2	8	8	16	1	We don't have branches in all major suburbs.	1	negation
+523	renovate	This will renovate my spirits.	They renovated the ceiling of the Sistine Chapel.	10	5	18	14	0	They didn't renovate the ceiling of the Sistine Chapel.	0	negation
+524	heartbeat	The policeman waited for a heartbeat in vain.	He alone gives me such heartbeats.	27	23	36	33	1	He alone doesn't give me such heartbeats.	1	negation
+525	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	0	The most desirable feature of the park are not the beautiful views.	0	negation
+526	admit	Admit someone to the profession.	She was admitted to the New Jersey Bar.	0	8	5	16	1	She was not admitted to the New Jersey Bar.	1	negation
+527	holiday	Today is a Wiccan holiday!	No mail is delivered on federal holidays.	18	32	25	40	1	Mail is delivered on federal holidays.	1	rm_negation
+528	scrap	The unhappy couple got into a terrible scrap.	That car isn't good for anything but scrap.	39	37	44	42	0	That car is good for anything but scrap.	0	rm_negation
+529	intention	The intention of this legislation is to boost the economy.	Good intentions are not enough.	4	5	13	15	1	Good intentions are enough.	1	rm_negation
+530	department	His work established a new department of literature.	Baking is not my department.	27	17	37	27	1	Baking is my department.	1	rm_negation
+531	mire	To mire a horse or wagon.	Our people should not be mired in the past.	3	25	7	30	0	Our people should be mired in the past.	0	rm_negation
+532	fondler	The woman charged that her jailer was a fondler.	Not all fondlers are sexual perverts.	40	8	47	16	1	All fondles are sexual perverts.	1	rm_negation
+533	hostility	He could not conceal his hostility.	He could no longer contain his hostility.	25	31	34	40	0	He could contain his hostility.	0	rm_negation
+534	leave	Leave lots of time for the trip.	This leaves no room for improvement.	0	5	5	11	1	This leaves room for improvement.	1	rm_negation
+535	falsity	The belief that the world is flat is a falsity.	Argument could not determine its truth or falsity.	39	42	46	49	1	Argument could determine its truth or falsity.	1	rm_negation
