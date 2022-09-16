@@ -1,141 +1,141 @@
-index	word	sentence1	sentence2	start1	start2	end1	end2	idx	label	sentence2_paraphrase
-0	toss	I'll toss you for it.	Steve tossed John the ball.	5	6	9	12	185	1	Steve tossed the ball to John.
-1	system	That language has a complex system for indicating gender.	They have to operate under a system they oppose.	28	29	34	35	186	1	They must work within a system that they despise.
-2	month	He was given a month to pay the bill.	We went on holiday for two months.	15	27	20	33	189	1	We took a two-month vacation.
-3	chemistry	The chemistry of indigo.	The chemistry of iron.	4	4	13	13	109	1	Iron chemistry.
-4	act	She wants to act Lady Macbeth, but she is too young for the role.	I started acting at the age of eleven in my local theatre.	13	10	16	16	111	1	I began acting in my local theatre when I was eleven years old.
-5	last	Summer seems to last longer each year.	The bad weather lasted for three days.	16	16	20	22	113	1	The inclement weather lasted three days.
-6	domesticity	Making a hobby of domesticity.	A royal family living in unpretentious domesticity.	18	39	29	50	132	0	Unpretentious domesticity for a royal family.
-7	strangle	The imperialist nation wanted to strangle the free trade between the two small countries.	A man in Boston has been strangling several dozen prostitutes.	33	25	41	35	133	0	A man in Boston has strangled a number of prostitutes.
-8	bye	He had a bye in the first round.	Craig's Crew plays the bye next week.	9	23	12	26	134	1	Craig's Crew has a bye week the following week.
-9	round	The round of the seasons.	The postman's rounds.	4	14	9	20	135	0	The postman makes his rounds.
-10	distance	I could see it in the distance.	The distance from New York to Chicago.	22	4	30	12	136	0	The distance between New York and Chicago.
-11	cuisine	The restaurant is noted for its excellent cuisine.	French cuisine is considered to be one of the world's most refined and elegant styles of cooking.	42	7	49	14	143	1	French cuisine is regarded as one of the most refined and elegant cooking styles in the world.
-12	triangulate	Triangulate the piece of cardboard.	The land surveyor worked by triangulating the plot.	0	28	11	41	145	0	The plot was triangulated by the land surveyor.
-13	gesture	A political gesture.	A gesture of defiance.	12	2	19	9	146	1	A defiant gesture.
-14	comb	Comb the wool.	Comb your hair before dinner.	0	0	4	4	148	1	Before dinner, comb your hair.
-15	absorb	Absorb the costs for something.	He absorbed the knowledge or beliefs of his tribe.	0	3	6	11	151	0	He absorbed his tribe's knowledge or beliefs.
-16	harass	Harass the enemy.	This man harasses his female co-workers.	0	9	6	17	86	0	This man sexually harasses his female coworkers.
-17	cost	The average cost of a new house is twice as much as t was 20 years ago.	The total cost of the new complex was an estimated $1.5 million.	12	10	16	14	87	1	The new complex was estimated to cost $1.5 million in total.
-18	sound	The main body of the sound ran parallel to the coast.	He strained to hear the faint sounds.	21	30	26	36	89	0	He strained his ears to pick up on the faint sounds.
-19	floss	She flossed her teeth.	The hygienist flossed my teeth.	4	14	11	21	91	1	My teeth were flossed by the hygienist.
-20	average	If you average 10, 20 and 24, you get 18.	The number of hours I work per work averages out to 40.	7	36	14	44	22	0	My average number of hours worked per workday is 40.
-21	border	The rug had a wide blue border.	The borders of the garden.	24	4	30	11	23	1	The garden's borders.
-22	deliberation	It was the deliberation of his act that was insulting.	The deliberations of the jury.	11	4	23	17	28	0	The jury's deliberations.
-23	path	The path of virtue.	Our paths in life led us apart.	4	4	8	9	283	1	Our paths in life diverged.
-24	drought	When England defeated Pakistan it ended a ten-year drought.	Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.	51	29	58	36	284	0	Farmers who have been hardest hit by the drought are hopeful that there will be enough rain early in the growing season.
-25	officer	He is an officer of the court.	The club elected its officers for the coming year.	9	21	16	29	285	1	The club's officers for the coming year were elected.
-26	deed	He signed the deed.	I inherited the deed to the house.	14	16	18	20	286	1	I inherited the house's deed.
-27	relief	He has been on relief for many years.	Was the relief supposed to be protection from future harm or compensation for past injury?	15	8	21	14	44	0	Was the relief intended to provide protection from future harm or to compensate for past harm?
-28	cross	A mule is a cross between a horse and a donkey.	That is his cross to bear.	12	12	17	17	45	0	That is the cross he must bear.
-29	distribute	The publisher wants to distribute the book in Asia.	The function distributes the values evenly.	23	13	33	24	49	0	The function evenly distributes the values.
-30	military	Their military is the largest in the region.	He spent six years in the military.	6	26	14	34	51	1	He served in the military for six years.
-31	string	A string of islands.	The strings played superlatively well.	2	4	8	11	198	0	The strings performed admirably.
-32	wateriness	The wateriness of his blood.	The haziness and wateriness of his disquisitions.	4	17	14	27	199	1	His disquisitions' haziness and wateriness.
-33	drawing	The drawing of water from the well.	He did complicated pen-and-ink drawings like medieval miniatures.	4	31	11	39	200	0	He created intricate pen-and-ink drawings that resembled medieval miniatures.
-34	influence	He was a bad influence on the children.	Used her parents' influence to get the job.	13	18	22	27	201	0	She got the job thanks to her parents' influence.
-35	appreciate	I appreciate your efforts.	The yen appreciated again!	2	8	12	19	203	0	The yen appreciated once more!
-36	bang	He got a bang on the head.	They got a great bang out of it.	9	17	13	21	8	0	They got a lot of bang for their buck.
-37	response	This situation developed in response to events in Africa.	His responses have slowed with age.	28	4	36	13	10	0	His responses have slowed as he has gotten older.
-38	aliyah	Students making aliyah.	He was called on for an aliyah.	16	24	22	30	15	0	He was summoned to make an aliyah.
-39	violate	Violate the sanctity of the church.	This sentence violates the rules of syntax.	0	14	7	22	16	0	This sentence violates syntax rules.
-40	eccentricity	For an ellipse, the eccentricity is the ratio of the distance from the center to a focus divided by the length of the semi-major axis.	A circle is an ellipse with zero eccentricity.	20	33	32	45	153	1	A circle is a zero-eccentricity ellipse.
-41	nightlife	In the summer the nightlife shifts to the dance clubs.	A futile search for intelligent nightlife.	18	32	27	41	156	1	A fruitless quest for intelligent nightlife.
-42	ruin	This behavior will ruin your chances of winning the election.	The country lay ruined after the war.	19	16	23	22	162	0	After the war, the country was in ruins.
-43	daughter	I already have a son, so I would like to have a daughter.	Her daughter cared for her in her old age.	48	4	56	12	163	1	Her daughter looked after her mother in her old age.
-44	attend	I rarely attend services at my church.	She attends class regularly.	9	4	15	11	192	1	She regularly attends class.
-45	erase	The files will erase quickly.	The chalkboard erased easily.	15	15	20	21	194	1	The chalkboard was easily erased.
-46	sign	Please sign on the dotted line.	Please sign here.	7	7	11	11	197	1	Please sign your name here.
-47	watch	Put a little baking soda in some vinegar and watch what happens.	The world is watching Sarajevo.	45	13	50	21	37	0	Sarajevo is being watched by the entire world.
-48	avail	It will avail them to dispose of their booty.	He availed himself of the available resources.	8	3	13	10	38	0	He used the resources that were available to him.
-49	excuse	That thing is a poor excuse for a gingerbread man. Hasn't anyone taught you how to bake?	He's a sorry excuse of a doctor.	21	13	27	19	39	1	He's a pathetic excuse for a doctor.
-50	sense	Particle detectors sense ionization.	She immediately sensed her disdain.	19	16	24	22	42	0	She could sense her disdain right away.
-51	explanation	The explanation was very simple.	The explanation was long and drawn-out.	4	4	15	15	43	1	The explanation was lengthy and detailed.
-52	wash	This silly excuse won't wash in traffic court.	The cat washes several times a day.	24	8	28	14	164	0	The cat washes herself several times per day.
-53	defense	They died in the defense of Stalingrad.	They were developed for the defense program.	17	28	24	35	169	1	They were created as part of the defense program.
-54	stop	Stop a car.	Stop the thief.	0	0	4	4	70	1	The thief must be stopped.
-55	dimple	The accident created a dimple in the hood of the car.	There are approximately 336 dimples on a golf ball.	23	28	29	35	71	1	A golf ball has approximately 336 dimples.
-56	trailer	The trailer for that movie makes it seem like it would be fun.	At the end of the day, we put the snowmobiles back on the trailer.	4	58	11	65	72	0	We returned the snowmobiles to the trailer at the end of the day.
-57	intention	The intention of this legislation is to boost the economy.	Good intentions are not enough.	4	5	13	15	73	1	Good intentions are insufficient.
-58	glaze	Glaze the bread with eggwhite.	The potter glazed the dishes.	0	11	5	17	75	1	The dishes were glazed by the potter.
-59	chore	Washing dishes is a chore, but we can not just stop eating.	The farmer's morning chores.	20	21	25	27	208	1	Morning chores for the farmer.
-60	middle	I woke up in the middle of the night.	A whole is that which has beginning, middle, and end -- Aristotle.	17	37	23	43	209	1	Aristotle defined a whole as having a beginning, middle, and end.
-61	street	Be careful crossing the street.	The whole street protested the absence of lights.	24	10	30	16	210	0	The absence of lights was protested by the entire street.
-62	peg	Let's peg the rug to the floor.	Peg a tent.	6	0	9	3	269	1	Tent pegs
-63	hook	Hook the ball.	His opponent hooked him badly.	0	13	4	19	271	0	His opponent had a strong hook on him.
-64	flood	Flood the market with tennis shoes.	The swollen river flooded the village.	0	18	5	25	272	0	The village was flooded as a result of the swollen river.
-65	piece	The children acted out a comic piece to amuse the guests.	He sacrificed a piece to get a strategic advantage.	31	16	36	21	255	0	He gave up a piece to gain a strategic advantage.
-66	twilight	I could just make out her face in the twilight.	He loved the twilight.	38	13	46	21	257	0	He adored twilight.
-67	sugar	Sugar your tea.	John heavily sugars his coffee.	0	13	5	19	258	1	John adds a lot of sugar to his coffee.
-68	toast	That toaster can make wonderful toasts.	I ate a piece of toast for breakfast.	32	17	38	22	179	1	For breakfast, I had a piece of toast.
-69	construction	The engineer marvelled at his construction.	Construction is underway on the new bridge.	30	0	42	12	180	0	The new bridge is currently under construction.
-70	exchange	They had a bitter exchange.	An exchange of cattle for grain.	18	3	26	11	181	0	A cattle-for-grain exchange.
-71	hitter	A hard hitter.	Blacksmiths are good hitters.	7	21	13	28	184	1	Blacksmiths are powerful hitters.
-72	breeze	The breeze rustled the papers on her desk.	The breeze was cooled by the lake.	4	4	10	10	53	1	The lake kept the breeze cool.
-73	literature	One aspect of Waterloo has not yet been treated in the literature.	The technical literature.	55	14	65	24	55	1	The scientific literature.
-74	carve	Carve one's name into the bark.	That chisel carved the statue.	0	12	5	18	56	1	The statue was carved with that chisel.
-75	choke	Choke a carburetor.	This neckband is choking the cat.	0	17	5	24	58	0	The cat is being choked by this neckband.
-76	contact	I am trying to contact my sister.	He never contacted his children after he emigrated to Australia.	15	9	22	18	62	1	After emigrating to Australia, he never contacted his children.
-77	operation	They organized a rescue operation.	Consolidate the companies various operations.	24	34	33	44	227	1	Consolidate the various operations of the company.
-78	continent	Pioneers had to cross the continent on foot.	There are seven continents.	26	16	35	26	228	1	There are seven continents in total.
-79	catch	The catch was only 10 fish.	He shared his catch with the others.	4	14	9	19	231	0	He shared his catch with the rest of the group.
-80	restraint	The room was simply decorated with great restraint.	The car did not have proper restraints fitted.	41	28	50	38	274	0	The vehicle lacked proper restraints.
-81	crush	To crush grapes.	The car crushed the toy.	3	8	8	15	275	0	The toy was crushed by the car.
-82	work	He was indebted to the pioneering work of John Dewey.	The work of an active imagination.	34	4	38	8	280	1	The result of a creative imagination at work.
-83	exhibition	There was an art exhibition on in the town hall.	A boat exhibition.	17	7	27	17	247	1	An exhibition of boats.
-84	scrap	The unhappy couple got into a terrible scrap.	That car isn't good for anything but scrap.	39	37	44	42	248	0	That car is useless and should be scrapped.
-85	pinnacle	Pinnacle a pediment.	He did not want to be pinnacled.	0	22	8	31	250	0	He didn't want to be the pinnacle.
-86	wail	Wail in self-pity.	She wailed with pain.	0	4	4	10	251	0	She wailed in agony.
-87	brush	She gave her hair a quick brush.	The dentist recommended two brushes a day.	26	28	31	35	2	1	The dentist advised brushing twice a day.
-88	meeting	There was no meeting of minds.	The meeting elected a chairperson.	13	4	20	11	215	0	A chairperson was elected at the meeting.
-89	submerge	Submerge your head completely.	The submarine submerged in the water.	0	14	8	23	217	0	The submarine was submerged in water.
-90	promise	I promise you my best effort.	I promised somebody my time.	2	2	9	10	218	1	I had promised someone my time.
-91	mechanism	A mechanism of social control.	Mechanisms of communication.	2	0	11	10	219	1	Communication mechanisms
-92	spade	She led a low spade.	Spades were trumps.	14	0	19	6	220	1	The trump suit was spades.
-93	gig	They played a gig in New Jersey.	Our guitar player had another gig so we had to get a sub.	14	30	17	33	127	1	Our guitarist had another gig, so we had to find a replacement.
-94	cognate	English is a cognate of Greek, German, Russian and Persian.	English and, Russian, Icelandic and Irish are all cognates.	13	50	20	58	128	1	English has cognates in Russian, Icelandic, and Irish.
-95	license	The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.	When liberty becomes license dictatorship is near -- Will Durant.	16	21	23	28	129	1	When liberty becomes a license, dictatorship is on the horizon  Will Durant.
-96	abuse	All abuse, whether physical, verbal, psychological or sexual, is bad.	The child showed signs of physical abuse.	4	35	9	40	130	1	The child appeared to have been physically abused.
-97	extension	The dancer was praised for her uncanny extension.	Good extension comes from a combination of training and native ability.	39	5	48	14	131	1	A good extension is the result of a combination of training and natural ability.
-98	breast	He beat his breast in anger.	The robin has a red breast.	12	20	18	26	233	1	The breast of the robin is red.
-99	vision	The runners emerged from the trees into his clear vision.	He had a vision of the Virgin Mary.	50	9	56	15	234	0	He saw the Virgin Mary in a vision.
-100	scraping	All that bowing and scraping did not impress him.	They collected blood scrapings for analysis.	20	21	28	30	235	0	They took blood scrapings for testing.
-101	whitewash	Let's not whitewash the crimes of Stalin.	In his sermon, the minister didn't try to whitewash over the sins of his church.	10	42	19	51	237	0	The minister did not try to whitewash his church's sins in his sermon.
-102	potluck	Here's a good potluck of beans and stew.	Having arrived unannounced we had to take potluck.	14	42	21	49	240	1	We had to take potluck because we had arrived unannounced.
-103	affiliation	A valuable financial affiliation.	Welcomed the affiliation of the research center with the university.	21	13	32	24	66	0	The research center's affiliation with the university was welcomed.
-104	bell	Bell cows.	Who will bell the cat?	0	9	4	13	68	1	Who will ring the cat's bell?
-105	listen	Please listen carefully as I explain.	I like to listen to music.	7	10	13	16	69	1	I enjoy listening to music.
-106	flowage	Rock fracture and rock flowage are different types of geological deformation.	Many campsites were located near the flowage.	23	37	30	44	261	0	There were a lot of campsites near the flowage.
-107	policy	You should have read the small print on your policy.	It was a policy of retribution.	45	9	51	15	263	0	It was a retaliatory policy.
-108	reality	The reality of his situation slowly dawned on him.	The reality of the crash scene on TV dawned upon him only when he saw the victim was no actor but his friend.	4	4	11	11	266	1	The reality of the TV crash scene hit him only when he realized the victim was not an actor but a friend.
-109	party	The party of the first part.	He planned a party to celebrate Bastille Day.	4	13	9	18	267	0	He was planning a party to commemorate Bastille Day.
-110	professionalization	The professionalization of warfare.	The professionalization of American sports.	4	4	23	23	95	1	The professionalization of sports in the United States.
-111	horse	A clothes horse.	500 horse led the attack.	10	4	15	9	98	0	The attack was led by 500 horses.
-112	prohibition	They were restrained by a prohibition in their charter.	In 1920 the 18th amendment to the Constitution established prohibition in the US.	26	59	37	70	242	0	The 18th amendment to the Constitution was ratified in 1920, establishing prohibition in the United States.
-113	stay	Wear gloves so your hands stay warm.	Stay with me, please.	26	0	30	4	243	1	Please stay with me.
-114	life	Real life.	It was a heavy play and the actors tried in vain to give life to it.	5	57	9	61	245	0	It was a heavy play, and the actors tried vainly to bring it to life.
-115	conceive	She can not conceive.	Assisted procreation can help those trying to conceive.	12	46	20	54	174	1	Assisted reproduction can help those who are trying to conceive.
-116	militia	Their troops were untrained militia.	Congress shall have power to provide for calling forth the militia -- United States Constitution.	28	59	35	66	175	1	Congress shall have the authority to call out the militia  United States Constitution.
-117	stream	He felt a stream of air.	The hose ejected a stream of water.	10	19	16	25	176	1	A stream of water was ejected from the hose.
-118	militarize	Militarize the Civil Service.	Militarize Germany again after the war.	0	0	10	10	177	0	After the war, remilitarize Germany.
-119	tear	He took the manuscript in both hands and gave it a mighty tear.	There were big tears rolling down Lisa's cheeks.	58	15	62	20	178	0	Lisa's eyes welled up and tears streamed down her cheeks.
-120	spin	The campaign put a favorable spin on the story.	The skaters demonstrated their spins.	29	31	33	36	289	0	The skaters showed off their spins.
-121	canon	The neoclassical canon.	Canons of polite society.	17	0	22	6	292	1	Polite society's canons
-122	repair	One can never fully repair the suffering and losses of the Jews in the Third Reich.	She repaired her TV set.	20	4	26	12	138	0	She was repairing her television set.
-123	flip	I'd flip if anyone broke my phone.	He flipped when he heard that he was accepted into Princeton University.	4	3	8	10	140	0	He flipped when he found out he had been accepted to Princeton University.
-124	pay	He wasted his pay on drink.	Many employers have rules designed to keep employees from comparing their pays.	14	74	17	78	31	1	Many employers have policies in place to prevent employees from comparing pay.
-125	board	The board has seven members.	He got out the board and set up the pieces.	4	15	9	20	33	0	He took out the board and began arranging the pieces.
-126	escalation	Higher wages caused an escalation of prices.	There was a gradual escalation of hostilities.	23	20	33	30	34	1	The escalation of hostilities was gradual.
-127	sophistication	He practiced the art of sophistication upon reason.	Understanding affine transformations requires considerable mathematical sophistication.	24	72	38	86	35	0	Understanding affine transformations necessitates a high level of mathematical sophistication.
-128	cup	He put the cup back in the saucer.	The handle of the cup was missing.	11	18	14	21	104	1	The cup's handle was missing.
-129	advantage	The enemy had the advantage of a more elevated position.	The experience gave him the advantage over me.	18	28	27	37	105	1	He had the advantage over me because of his experience.
-130	club	Each club played six home games with teams in its own division.	He played the drums at a jazz club.	5	30	9	34	107	0	He was a drummer in a jazz club.
-131	square	The carpenter who built this room must have lost his square.	64 is the square of 8.	53	10	59	16	108	0	The square of 8 is 64.
-132	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	117	0	The stunning views are the park's most appealing feature.
-133	indent	Indent the documents.	Indent the paragraphs of a letter.	0	0	6	6	124	0	In a letter, indent the paragraphs.
-134	fuzz	He tried to clear his head of the whisky fuzz.	Peach fuzz.	41	6	45	10	221	0	Peach fuzziness
-135	shock	To shock rye.	Shock grain.	3	0	8	5	222	1	Grain shock.
-136	strip	He welded together some pieces of strip.	She did a strip right in front of everyone.	34	10	39	15	224	0	She stripped naked in front of everyone.
-137	bracket	Please bracket this remark.	Bracket bookshelves.	7	0	14	7	295	0	Bookshelves with brackets
-138	plume	A plume of smoke.	Grass with large plumes.	2	17	7	23	296	1	Grass with a lot of plumes.
-139	body	The whole body filed out of the auditorium.	The student body.	10	12	14	16	299	1	The entire student body.
+index	word	sentence1	sentence2	start1	start2	end1	end2	label	sentence2_paraphrase	start_para	end_para
+0	toss	I'll toss you for it.	Steve tossed John the ball.	5	6	9	12	1	Steve tossed the ball to John.	6	12
+1	system	That language has a complex system for indicating gender.	They have to operate under a system they oppose.	28	29	34	35	1	They must work within a system that they despise.	24	30
+2	month	He was given a month to pay the bill.	We went on holiday for two months.	15	27	20	33	1	We took a two-month vacation.	14	19
+3	chemistry	The chemistry of indigo.	The chemistry of iron.	4	4	13	13	1	Iron chemistry.	5	14
+4	act	She wants to act Lady Macbeth, but she is too young for the role.	I started acting at the age of eleven in my local theatre.	13	10	16	16	1	I began acting in my local theatre when I was eleven years old.	8	14
+5	last	Summer seems to last longer each year.	The bad weather lasted for three days.	16	16	20	22	1	The inclement weather lasted three days.	22	28
+6	domesticity	Making a hobby of domesticity.	A royal family living in unpretentious domesticity.	18	39	29	50	0	Unpretentious domesticity for a royal family.	14	25
+7	strangle	The imperialist nation wanted to strangle the free trade between the two small countries.	A man in Boston has been strangling several dozen prostitutes.	33	25	41	35	0	A man in Boston has strangled a number of prostitutes.	20	28
+8	bye	He had a bye in the first round.	Craig's Crew plays the bye next week.	9	23	12	26	1	Craig's Crew has a bye week the following week.	19	22
+9	round	The round of the seasons.	The postman's rounds.	4	14	9	20	0	The postman makes his rounds.	22	28
+10	distance	I could see it in the distance.	The distance from New York to Chicago.	22	4	30	12	0	The distance between New York and Chicago.	4	12
+11	cuisine	The restaurant is noted for its excellent cuisine.	French cuisine is considered to be one of the world's most refined and elegant styles of cooking.	42	7	49	14	1	French cuisine is regarded as one of the most refined and elegant cooking styles in the world.	7	14
+12	triangulate	Triangulate the piece of cardboard.	The land surveyor worked by triangulating the plot.	0	28	11	41	0	The plot was triangulated by the land surveyor.	13	24
+13	gesture	A political gesture.	A gesture of defiance.	12	2	19	9	1	A defiant gesture.	10	17
+14	comb	Comb the wool.	Comb your hair before dinner.	0	0	4	4	1	Before dinner, comb your hair.	15	19
+15	absorb	Absorb the costs for something.	He absorbed the knowledge or beliefs of his tribe.	0	3	6	11	0	He absorbed his tribe's knowledge or beliefs.	3	11
+16	harass	Harass the enemy.	This man harasses his female co-workers.	0	9	6	17	0	This man sexually harasses his female coworkers.	18	26
+17	cost	The average cost of a new house is twice as much as t was 20 years ago.	The total cost of the new complex was an estimated $1.5 million.	12	10	16	14	1	The new complex was estimated to cost $1.5 million in total.	33	37
+18	sound	The main body of the sound ran parallel to the coast.	He strained to hear the faint sounds.	21	30	26	36	0	He strained his ears to pick up on the faint sounds.	45	51
+19	floss	She flossed her teeth.	The hygienist flossed my teeth.	4	14	11	21	1	My teeth were flossed by the hygienist.	14	21
+20	average	If you average 10, 20 and 24, you get 18.	The number of hours I work per work averages out to 40.	7	36	14	44	0	My average number of hours worked per workday is 40.	3	10
+21	border	The rug had a wide blue border.	The borders of the garden.	24	4	30	11	1	The garden's borders.	13	20
+22	deliberation	It was the deliberation of his act that was insulting.	The deliberations of the jury.	11	4	23	17	0	The jury's deliberations.	11	24
+23	path	The path of virtue.	Our paths in life led us apart.	4	4	8	9	1	Our paths in life diverged.	4	9
+24	drought	When England defeated Pakistan it ended a ten-year drought.	Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.	51	29	58	36	0	Farmers who have been hardest hit by the drought are hopeful that there will be enough rain early in the growing season.	41	48
+25	officer	He is an officer of the court.	The club elected its officers for the coming year.	9	21	16	29	1	The club's officers for the coming year were elected.	11	19
+26	deed	He signed the deed.	I inherited the deed to the house.	14	16	18	20	1	I inherited the house's deed.	24	28
+27	relief	He has been on relief for many years.	Was the relief supposed to be protection from future harm or compensation for past injury?	15	8	21	14	0	Was the relief intended to provide protection from future harm or to compensate for past harm?	8	14
+28	cross	A mule is a cross between a horse and a donkey.	That is his cross to bear.	12	12	17	17	0	That is the cross he must bear.	12	17
+29	distribute	The publisher wants to distribute the book in Asia.	The function distributes the values evenly.	23	13	33	24	0	The function evenly distributes the values.	20	31
+30	military	Their military is the largest in the region.	He spent six years in the military.	6	26	14	34	1	He served in the military for six years.	17	25
+31	string	A string of islands.	The strings played superlatively well.	2	4	8	11	0	The strings performed admirably.	4	11
+32	wateriness	The wateriness of his blood.	The haziness and wateriness of his disquisitions.	4	17	14	27	1	His disquisitions' haziness and wateriness.	32	42
+33	drawing	The drawing of water from the well.	He did complicated pen-and-ink drawings like medieval miniatures.	4	31	11	39	0	He created intricate pen-and-ink drawings that resembled medieval miniatures.	33	41
+34	influence	He was a bad influence on the children.	Used her parents' influence to get the job.	13	18	22	27	0	She got the job thanks to her parents' influence.	39	48
+35	appreciate	I appreciate your efforts.	The yen appreciated again!	2	8	12	19	0	The yen appreciated once more!	8	19
+36	bang	He got a bang on the head.	They got a great bang out of it.	9	17	13	21	0	They got a lot of bang for their buck.	18	22
+37	response	This situation developed in response to events in Africa.	His responses have slowed with age.	28	4	36	13	0	His responses have slowed as he has gotten older.	4	13
+38	aliyah	Students making aliyah.	He was called on for an aliyah.	16	24	22	30	0	He was summoned to make an aliyah.	27	33
+39	violate	Violate the sanctity of the church.	This sentence violates the rules of syntax.	0	14	7	22	0	This sentence violates syntax rules.	14	22
+40	eccentricity	For an ellipse, the eccentricity is the ratio of the distance from the center to a focus divided by the length of the semi-major axis.	A circle is an ellipse with zero eccentricity.	20	33	32	45	1	A circle is a zero-eccentricity ellipse.	19	31
+41	nightlife	In the summer the nightlife shifts to the dance clubs.	A futile search for intelligent nightlife.	18	32	27	41	1	A fruitless quest for intelligent nightlife.	34	43
+42	ruin	This behavior will ruin your chances of winning the election.	The country lay ruined after the war.	19	16	23	22	0	After the war, the country was in ruins.	34	38
+43	daughter	I already have a son, so I would like to have a daughter.	Her daughter cared for her in her old age.	48	4	56	12	1	Her daughter looked after her mother in her old age.	4	12
+44	attend	I rarely attend services at my church.	She attends class regularly.	9	4	15	11	1	She regularly attends class.	14	21
+45	erase	The files will erase quickly.	The chalkboard erased easily.	15	15	20	21	1	The chalkboard was easily erased.	26	32
+46	sign	Please sign on the dotted line.	Please sign here.	7	7	11	11	1	Please sign your name here.	7	11
+47	watch	Put a little baking soda in some vinegar and watch what happens.	The world is watching Sarajevo.	45	13	50	21	0	Sarajevo is being watched by the entire world.	18	23
+48	avail	It will avail them to dispose of their booty.	He availed himself of the available resources.	8	3	13	10	0	He used the resources that were available to him.	32	37
+49	excuse	That thing is a poor excuse for a gingerbread man. Hasn't anyone taught you how to bake?	He's a sorry excuse of a doctor.	21	13	27	19	1	He's a pathetic excuse for a doctor.	16	22
+50	sense	Particle detectors sense ionization.	She immediately sensed her disdain.	19	16	24	22	0	She could sense her disdain right away.	10	15
+51	explanation	The explanation was very simple.	The explanation was long and drawn-out.	4	4	15	15	1	The explanation was lengthy and detailed.	4	15
+52	wash	This silly excuse won't wash in traffic court.	The cat washes several times a day.	24	8	28	14	0	The cat washes herself several times per day.	8	14
+53	defense	They died in the defense of Stalingrad.	They were developed for the defense program.	17	28	24	35	1	They were created as part of the defense program.	33	40
+54	stop	Stop a car.	Stop the thief.	0	0	4	4	1	The thief must be stopped.	18	22
+55	dimple	The accident created a dimple in the hood of the car.	There are approximately 336 dimples on a golf ball.	23	28	29	35	1	A golf ball has approximately 336 dimples.	34	41
+56	trailer	The trailer for that movie makes it seem like it would be fun.	At the end of the day, we put the snowmobiles back on the trailer.	4	58	11	65	0	We returned the snowmobiles to the trailer at the end of the day.	35	42
+57	intention	The intention of this legislation is to boost the economy.	Good intentions are not enough.	4	5	13	15	1	Good intentions are insufficient.	5	15
+58	glaze	Glaze the bread with eggwhite.	The potter glazed the dishes.	0	11	5	17	1	The dishes were glazed by the potter.	16	22
+59	chore	Washing dishes is a chore, but we can not just stop eating.	The farmer's morning chores.	20	21	25	27	1	Morning chores for the farmer.	8	14
+60	middle	I woke up in the middle of the night.	A whole is that which has beginning, middle, and end -- Aristotle.	17	37	23	43	1	Aristotle defined a whole as having a beginning, middle, and end.	49	55
+61	street	Be careful crossing the street.	The whole street protested the absence of lights.	24	10	30	16	0	The absence of lights was protested by the entire street.	50	56
+62	peg	Let's peg the rug to the floor.	Peg a tent.	6	0	9	3	1	Tent pegs	5	8
+63	hook	Hook the ball.	His opponent hooked him badly.	0	13	4	19	0	His opponent had a strong hook on him.	26	30
+64	flood	Flood the market with tennis shoes.	The swollen river flooded the village.	0	18	5	25	0	The village was flooded as a result of the swollen river.	16	23
+65	piece	The children acted out a comic piece to amuse the guests.	He sacrificed a piece to get a strategic advantage.	31	16	36	21	0	He gave up a piece to gain a strategic advantage.	13	18
+66	twilight	I could just make out her face in the twilight.	He loved the twilight.	38	13	46	21	0	He adored twilight.	10	18
+67	sugar	Sugar your tea.	John heavily sugars his coffee.	0	13	5	19	1	John adds a lot of sugar to his coffee.	19	24
+68	toast	That toaster can make wonderful toasts.	I ate a piece of toast for breakfast.	32	17	38	22	1	For breakfast, I had a piece of toast.	32	37
+69	construction	The engineer marvelled at his construction.	Construction is underway on the new bridge.	30	0	42	12	0	The new bridge is currently under construction.	34	46
+70	exchange	They had a bitter exchange.	An exchange of cattle for grain.	18	3	26	11	0	A cattle-for-grain exchange.	19	27
+71	hitter	A hard hitter.	Blacksmiths are good hitters.	7	21	13	28	1	Blacksmiths are powerful hitters.	25	32
+72	breeze	The breeze rustled the papers on her desk.	The breeze was cooled by the lake.	4	4	10	10	1	The lake kept the breeze cool.	18	24
+73	literature	One aspect of Waterloo has not yet been treated in the literature.	The technical literature.	55	14	65	24	1	The scientific literature.	15	25
+74	carve	Carve one's name into the bark.	That chisel carved the statue.	0	12	5	18	1	The statue was carved with that chisel.	15	21
+75	choke	Choke a carburetor.	This neckband is choking the cat.	0	17	5	24	0	The cat is being choked by this neckband.	17	22
+76	contact	I am trying to contact my sister.	He never contacted his children after he emigrated to Australia.	15	9	22	18	1	After emigrating to Australia, he never contacted his children.	40	49
+77	operation	They organized a rescue operation.	Consolidate the companies various operations.	24	34	33	44	1	Consolidate the various operations of the company.	24	34
+78	continent	Pioneers had to cross the continent on foot.	There are seven continents.	26	16	35	26	1	There are seven continents in total.	16	26
+79	catch	The catch was only 10 fish.	He shared his catch with the others.	4	14	9	19	0	He shared his catch with the rest of the group.	14	19
+80	restraint	The room was simply decorated with great restraint.	The car did not have proper restraints fitted.	41	28	50	38	0	The vehicle lacked proper restraints.	26	36
+81	crush	To crush grapes.	The car crushed the toy.	3	8	8	15	0	The toy was crushed by the car.	12	19
+82	work	He was indebted to the pioneering work of John Dewey.	The work of an active imagination.	34	4	38	8	1	The result of a creative imagination at work.	40	44
+83	exhibition	There was an art exhibition on in the town hall.	A boat exhibition.	17	7	27	17	1	An exhibition of boats.	3	13
+84	scrap	The unhappy couple got into a terrible scrap.	That car isn't good for anything but scrap.	39	37	44	42	0	That car is useless and should be scrapped.	34	39
+85	pinnacle	Pinnacle a pediment.	He did not want to be pinnacled.	0	22	8	31	0	He didn't want to be the pinnacle.	25	33
+86	wail	Wail in self-pity.	She wailed with pain.	0	4	4	10	0	She wailed in agony.	4	10
+87	brush	She gave her hair a quick brush.	The dentist recommended two brushes a day.	26	28	31	35	1	The dentist advised brushing twice a day.	20	25
+88	meeting	There was no meeting of minds.	The meeting elected a chairperson.	13	4	20	11	0	A chairperson was elected at the meeting.	33	40
+89	submerge	Submerge your head completely.	The submarine submerged in the water.	0	14	8	23	0	The submarine was submerged in water.	18	27
+90	promise	I promise you my best effort.	I promised somebody my time.	2	2	9	10	1	I had promised someone my time.	6	14
+91	mechanism	A mechanism of social control.	Mechanisms of communication.	2	0	11	10	1	Communication mechanisms	14	23
+92	spade	She led a low spade.	Spades were trumps.	14	0	19	6	1	The trump suit was spades.	19	24
+93	gig	They played a gig in New Jersey.	Our guitar player had another gig so we had to get a sub.	14	30	17	33	1	Our guitarist had another gig, so we had to find a replacement.	26	29
+94	cognate	English is a cognate of Greek, German, Russian and Persian.	English and, Russian, Icelandic and Irish are all cognates.	13	50	20	58	1	English has cognates in Russian, Icelandic, and Irish.	12	20
+95	license	The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.	When liberty becomes license dictatorship is near -- Will Durant.	16	21	23	28	1	When liberty becomes a license, dictatorship is on the horizon  Will Durant.	23	30
+96	abuse	All abuse, whether physical, verbal, psychological or sexual, is bad.	The child showed signs of physical abuse.	4	35	9	40	1	The child appeared to have been physically abused.	43	48
+97	extension	The dancer was praised for her uncanny extension.	Good extension comes from a combination of training and native ability.	39	5	48	14	1	A good extension is the result of a combination of training and natural ability.	7	16
+98	breast	He beat his breast in anger.	The robin has a red breast.	12	20	18	26	1	The breast of the robin is red.	4	10
+99	vision	The runners emerged from the trees into his clear vision.	He had a vision of the Virgin Mary.	50	9	56	15	0	He saw the Virgin Mary in a vision.	28	34
+100	scraping	All that bowing and scraping did not impress him.	They collected blood scrapings for analysis.	20	21	28	30	0	They took blood scrapings for testing.	16	25
+101	whitewash	Let's not whitewash the crimes of Stalin.	In his sermon, the minister didn't try to whitewash over the sins of his church.	10	42	19	51	0	The minister did not try to whitewash his church's sins in his sermon.	28	37
+102	potluck	Here's a good potluck of beans and stew.	Having arrived unannounced we had to take potluck.	14	42	21	49	1	We had to take potluck because we had arrived unannounced.	15	22
+103	affiliation	A valuable financial affiliation.	Welcomed the affiliation of the research center with the university.	21	13	32	24	0	The research center's affiliation with the university was welcomed.	22	33
+104	bell	Bell cows.	Who will bell the cat?	0	9	4	13	1	Who will ring the cat's bell?	24	28
+105	listen	Please listen carefully as I explain.	I like to listen to music.	7	10	13	16	1	I enjoy listening to music.	8	14
+106	flowage	Rock fracture and rock flowage are different types of geological deformation.	Many campsites were located near the flowage.	23	37	30	44	0	There were a lot of campsites near the flowage.	39	46
+107	policy	You should have read the small print on your policy.	It was a policy of retribution.	45	9	51	15	0	It was a retaliatory policy.	21	27
+108	reality	The reality of his situation slowly dawned on him.	The reality of the crash scene on TV dawned upon him only when he saw the victim was no actor but his friend.	4	4	11	11	1	The reality of the TV crash scene hit him only when he realized the victim was not an actor but a friend.	4	11
+109	party	The party of the first part.	He planned a party to celebrate Bastille Day.	4	13	9	18	0	He was planning a party to commemorate Bastille Day.	18	23
+110	professionalization	The professionalization of warfare.	The professionalization of American sports.	4	4	23	23	1	The professionalization of sports in the United States.	4	23
+111	horse	A clothes horse.	500 horse led the attack.	10	4	15	9	0	The attack was led by 500 horses.	26	31
+112	prohibition	They were restrained by a prohibition in their charter.	In 1920 the 18th amendment to the Constitution established prohibition in the US.	26	59	37	70	0	The 18th amendment to the Constitution was ratified in 1920, establishing prohibition in the United States.	74	85
+113	stay	Wear gloves so your hands stay warm.	Stay with me, please.	26	0	30	4	1	Please stay with me.	7	11
+114	life	Real life.	It was a heavy play and the actors tried in vain to give life to it.	5	57	9	61	0	It was a heavy play, and the actors tried vainly to bring it to life.	64	68
+115	conceive	She can not conceive.	Assisted procreation can help those trying to conceive.	12	46	20	54	1	Assisted reproduction can help those who are trying to conceive.	55	63
+116	militia	Their troops were untrained militia.	Congress shall have power to provide for calling forth the militia -- United States Constitution.	28	59	35	66	1	Congress shall have the authority to call out the militia  United States Constitution.	50	57
+117	stream	He felt a stream of air.	The hose ejected a stream of water.	10	19	16	25	1	A stream of water was ejected from the hose.	2	8
+118	militarize	Militarize the Civil Service.	Militarize Germany again after the war.	0	0	10	10	0	After the war, remilitarize Germany.	17	27
+119	tear	He took the manuscript in both hands and gave it a mighty tear.	There were big tears rolling down Lisa's cheeks.	58	15	62	20	0	Lisa's eyes welled up and tears streamed down her cheeks.	26	31
+120	spin	The campaign put a favorable spin on the story.	The skaters demonstrated their spins.	29	31	33	36	0	The skaters showed off their spins.	29	34
+121	canon	The neoclassical canon.	Canons of polite society.	17	0	22	6	1	Polite society's canons	17	22
+122	repair	One can never fully repair the suffering and losses of the Jews in the Third Reich.	She repaired her TV set.	20	4	26	12	0	She was repairing her television set.	8	14
+123	flip	I'd flip if anyone broke my phone.	He flipped when he heard that he was accepted into Princeton University.	4	3	8	10	0	He flipped when he found out he had been accepted to Princeton University.	3	10
+124	pay	He wasted his pay on drink.	Many employers have rules designed to keep employees from comparing their pays.	14	74	17	78	1	Many employers have policies in place to prevent employees from comparing pay.	74	77
+125	board	The board has seven members.	He got out the board and set up the pieces.	4	15	9	20	0	He took out the board and began arranging the pieces.	16	21
+126	escalation	Higher wages caused an escalation of prices.	There was a gradual escalation of hostilities.	23	20	33	30	1	The escalation of hostilities was gradual.	4	14
+127	sophistication	He practiced the art of sophistication upon reason.	Understanding affine transformations requires considerable mathematical sophistication.	24	72	38	86	0	Understanding affine transformations necessitates a high level of mathematical sophistication.	79	93
+128	cup	He put the cup back in the saucer.	The handle of the cup was missing.	11	18	14	21	1	The cup's handle was missing.	4	7
+129	advantage	The enemy had the advantage of a more elevated position.	The experience gave him the advantage over me.	18	28	27	37	1	He had the advantage over me because of his experience.	11	20
+130	club	Each club played six home games with teams in its own division.	He played the drums at a jazz club.	5	30	9	34	0	He was a drummer in a jazz club.	27	31
+131	square	The carpenter who built this room must have lost his square.	64 is the square of 8.	53	10	59	16	0	The square of 8 is 64.	4	10
+132	view	They look the same in outward view.	The most desirable feature of the park are the beautiful views.	30	57	34	62	0	The stunning views are the park's most appealing feature.	13	18
+133	indent	Indent the documents.	Indent the paragraphs of a letter.	0	0	6	6	0	In a letter, indent the paragraphs.	13	19
+134	fuzz	He tried to clear his head of the whisky fuzz.	Peach fuzz.	41	6	45	10	0	Peach fuzziness	6	10
+135	shock	To shock rye.	Shock grain.	3	0	8	5	1	Grain shock.	6	11
+136	strip	He welded together some pieces of strip.	She did a strip right in front of everyone.	34	10	39	15	0	She stripped naked in front of everyone.	4	9
+137	bracket	Please bracket this remark.	Bracket bookshelves.	7	0	14	7	0	Bookshelves with brackets	17	24
+138	plume	A plume of smoke.	Grass with large plumes.	2	17	7	23	1	Grass with a lot of plumes.	20	26
+139	body	The whole body filed out of the auditorium.	The student body.	10	12	14	16	1	The entire student body.	19	23
