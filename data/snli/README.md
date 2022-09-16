@@ -2,7 +2,7 @@
 
 This directory includes **semantic**, **negational**, **symmetric**, and **transitive** consistency datasets of SNLI data
 
-### Column information of train_1/train_2/validation/test sets
+### Column information of train/validation/test sets
 - index: index number of data instance.
 - premise: input premise.
 - hypothesis: input hypothesis. 
