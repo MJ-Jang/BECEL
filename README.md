@@ -17,5 +17,17 @@ This is the repository of the paper:
 
 ## Citation
 ```
-TBD
+@inproceedings{jang-etal-2022-becel,
+    title = "{BECEL}: Benchmark for Consistency Evaluation of Language Models",
+    author = "Jang, Myeongjun  and
+      Kwon, Deuk Sin  and
+      Lukasiewicz, Thomas",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.324",
+    pages = "3680--3696",
+}
 ```
