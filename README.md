@@ -14,6 +14,7 @@ This is the repository of the paper:
   - sst2: includes **additive** and **semantic** consistency datasets are provided. 
   - wic: includes **semantic**, **negational**, **symmetric**, and **transitive** consistency datasets.
 
+- src: Scripts for evaluation metrics and examples.
 
 ## Citation
 ```
